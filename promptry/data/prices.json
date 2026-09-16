@@ -1,6 +1,6 @@
 {
-  "version": "2026-09-15",
-  "updated": "2026-09-15T11:39:33Z",
+  "version": "2026-09-16",
+  "updated": "2026-09-16T11:26:31Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -3970,6 +3970,18 @@
       "cache_write": 0.09999999999999999,
       "out": 0.0
     },
+    "agnes-2.5-flash": {
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
+      "out": 0.15
+    },
+    "agnes-2.5-pro": {
+      "in": 0.44999999999999996,
+      "cached": 0.00378,
+      "cache_write": 0.44999999999999996,
+      "out": 0.8999999999999999
+    },
     "ai21.j2-mid-v1": {
       "in": 12.5,
       "cached": 6.25,
@@ -3999,6 +4011,438 @@
       "cached": 0.25,
       "cache_write": 0.5,
       "out": 0.7
+    },
+    "aihubmix/agnes-2.5-flash": {
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
+      "out": 0.15
+    },
+    "aihubmix/agnes-2.5-pro": {
+      "in": 0.44999999999999996,
+      "cached": 0.00378,
+      "cache_write": 0.44999999999999996,
+      "out": 0.8999999999999999
+    },
+    "aihubmix/cc-glm-5.1": {
+      "in": 0.06,
+      "cached": 0.03,
+      "cache_write": 0.06,
+      "out": 0.22
+    },
+    "aihubmix/claude-fable-5": {
+      "in": 11.0,
+      "cached": 1.1,
+      "cache_write": 13.75,
+      "out": 55.0
+    },
+    "aihubmix/claude-haiku-4-5": {
+      "in": 1.1,
+      "cached": 0.11,
+      "cache_write": 1.375,
+      "out": 5.5
+    },
+    "aihubmix/claude-opus-4-8-think": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "aihubmix/claude-opus-5": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "aihubmix/claude-sonnet-5": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "aihubmix/coding-glm-5.3": {
+      "in": 0.06,
+      "cached": 0.015,
+      "cache_write": 0.06,
+      "out": 0.22
+    },
+    "aihubmix/coding-kimi-k3": {
+      "in": 0.44,
+      "cached": 0.06599999999999999,
+      "cache_write": 0.44,
+      "out": 1.6133300000000002
+    },
+    "aihubmix/coding-xiaomi-mimo-v2-omni": {
+      "in": 0.08,
+      "cached": 0.016,
+      "cache_write": 0.08,
+      "out": 0.39999999999999997
+    },
+    "aihubmix/coding-xiaomi-mimo-v2.5": {
+      "in": 0.08,
+      "cached": 0.0016,
+      "cache_write": 0.08,
+      "out": 0.16
+    },
+    "aihubmix/coding-xiaomi-mimo-v2.5-pro": {
+      "in": 0.19999999999999998,
+      "cached": 0.0016,
+      "cache_write": 0.19999999999999998,
+      "out": 0.39999999999999997
+    },
+    "aihubmix/command-a-plus-05-2026": {
+      "in": 2.5,
+      "cached": 1.25,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "aihubmix/deepseek-v4-flash": {
+      "in": 0.142,
+      "cached": 0.028399999999999998,
+      "cache_write": 0.142,
+      "out": 0.284
+    },
+    "aihubmix/deepseek-v4-pro": {
+      "in": 1.69,
+      "cached": 0.14027,
+      "cache_write": 1.69,
+      "out": 3.38
+    },
+    "aihubmix/doubao-seed-2-0-code-preview": {
+      "in": 0.4822,
+      "cached": 0.09644,
+      "cache_write": 0.4822,
+      "out": 2.411
+    },
+    "aihubmix/doubao-seed-2-0-lite-260428": {
+      "in": 0.09041,
+      "cached": 0.018082,
+      "cache_write": 0.09041,
+      "out": 0.5424599999999999
+    },
+    "aihubmix/doubao-seed-2-0-mini": {
+      "in": 0.030136,
+      "cached": 0.006027,
+      "cache_write": 0.030136,
+      "out": 0.30136
+    },
+    "aihubmix/doubao-seed-2-0-pro": {
+      "in": 0.4822,
+      "cached": 0.09644,
+      "cache_write": 0.4822,
+      "out": 2.411
+    },
+    "aihubmix/doubao-seed-2-1-turbo": {
+      "in": 0.46475,
+      "cached": 0.09294999999999999,
+      "cache_write": 0.46475,
+      "out": 2.32375
+    },
+    "aihubmix/ernie-5.1": {
+      "in": 0.5634,
+      "cached": 0.5634,
+      "cache_write": 0.5634,
+      "out": 2.5353
+    },
+    "aihubmix/gemini-3-flash-preview": {
+      "in": 0.5,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.5,
+      "out": 3.0
+    },
+    "aihubmix/gemini-3-flash-preview-search": {
+      "in": 0.5,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.5,
+      "out": 3.0
+    },
+    "aihubmix/gemini-3.1-pro-preview": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.0,
+      "out": 12.0
+    },
+    "aihubmix/gemini-3.1-pro-preview-customtools": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.0,
+      "out": 12.0
+    },
+    "aihubmix/gemini-3.5-flash-lite": {
+      "in": 0.3,
+      "cached": 0.03,
+      "cache_write": 0.3,
+      "out": 2.499999
+    },
+    "aihubmix/gemini-3.7-flash": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.75,
+      "out": 3.75
+    },
+    "aihubmix/gemma-4-26b-a4b-it": {
+      "in": 0.14,
+      "cached": 0.07,
+      "cache_write": 0.14,
+      "out": 0.39998
+    },
+    "aihubmix/gemma-4-31b-it": {
+      "in": 0.14,
+      "cached": 0.07,
+      "cache_write": 0.14,
+      "out": 0.39998
+    },
+    "aihubmix/glm-5.2-fast-preview": {
+      "in": 2.254,
+      "cached": 0.5635,
+      "cache_write": 2.254,
+      "out": 7.889
+    },
+    "aihubmix/glm-5.3": {
+      "in": 1.1268,
+      "cached": 0.2817,
+      "cache_write": 1.1268,
+      "out": 3.9438000000000004
+    },
+    "aihubmix/glm-5.3-flash": {
+      "in": 0.11268,
+      "cached": 0.02817,
+      "cache_write": 0.11268,
+      "out": 0.39438
+    },
+    "aihubmix/glm-5v-turbo": {
+      "in": 0.7041999999999999,
+      "cached": 0.169008,
+      "cache_write": 0.7041999999999999,
+      "out": 3.09848
+    },
+    "aihubmix/gpt-5.3-codex": {
+      "in": 1.75,
+      "cached": 0.175,
+      "cache_write": 1.75,
+      "out": 14.0
+    },
+    "aihubmix/gpt-5.4-high": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 15.0
+    },
+    "aihubmix/gpt-5.4-low": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 15.0
+    },
+    "aihubmix/gpt-5.4-mini": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.75,
+      "out": 4.5
+    },
+    "aihubmix/gpt-5.4-nano": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.19999999999999998,
+      "out": 1.25
+    },
+    "aihubmix/gpt-5.5": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 30.0
+    },
+    "aihubmix/gpt-5.5-pro": {
+      "in": 30.0,
+      "cached": 15.0,
+      "cache_write": 30.0,
+      "out": 180.0
+    },
+    "aihubmix/gpt-5.6-luna": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.25,
+      "out": 1.2
+    },
+    "aihubmix/gpt-5.6-sol-disc": {
+      "in": 4.0,
+      "cached": 0.39999999999999997,
+      "cache_write": 5.0,
+      "out": 20.0
+    },
+    "aihubmix/gpt-5.6-terra": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 12.0
+    },
+    "aihubmix/gpt-chat-latest": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 30.0
+    },
+    "aihubmix/grok-4-20-non-reasoning": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "aihubmix/grok-4-20-reasoning": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "aihubmix/grok-4.6": {
+      "in": 2.0,
+      "cached": 0.5,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "aihubmix/grok-build-0.1": {
+      "in": 1.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 1.0,
+      "out": 2.0
+    },
+    "aihubmix/hy3": {
+      "in": 0.1562,
+      "cached": 0.03905,
+      "cache_write": 0.1562,
+      "out": 0.6248
+    },
+    "aihubmix/hy4-preview": {
+      "in": 0.845,
+      "cached": 0.042249999999999996,
+      "cache_write": 0.845,
+      "out": 2.5349999999999997
+    },
+    "aihubmix/kimi-k2.6": {
+      "in": 0.95,
+      "cached": 0.160835,
+      "cache_write": 0.95,
+      "out": 3.9995000000000003
+    },
+    "aihubmix/kimi-k2.7-code-highspeed": {
+      "in": 1.9,
+      "cached": 0.32167,
+      "cache_write": 1.9,
+      "out": 7.9990000000000006
+    },
+    "aihubmix/kimi-k3": {
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.0,
+      "out": 15.0
+    },
+    "aihubmix/longcat-2.0": {
+      "in": 0.7746,
+      "cached": 0.015492,
+      "cache_write": 0.7746,
+      "out": 3.0984
+    },
+    "aihubmix/mai-thinking-1": {
+      "in": 2.0,
+      "cached": 1.0,
+      "cache_write": 2.0,
+      "out": 8.0
+    },
+    "aihubmix/mimo-v2-omni": {
+      "in": 0.44,
+      "cached": 0.088,
+      "cache_write": 0.44,
+      "out": 2.2
+    },
+    "aihubmix/mimo-v2-pro": {
+      "in": 1.1,
+      "cached": 0.22,
+      "cache_write": 1.1,
+      "out": 3.3000000000000003
+    },
+    "aihubmix/minimax-m2.7": {
+      "in": 0.2958,
+      "cached": 0.059160000000000004,
+      "cache_write": 0.2958,
+      "out": 1.1832
+    },
+    "aihubmix/minimax-m3": {
+      "in": 0.288,
+      "cached": 0.144,
+      "cache_write": 0.288,
+      "out": 1.152
+    },
+    "aihubmix/muse-spark-1.2": {
+      "in": 1.375,
+      "cached": 0.6875,
+      "cache_write": 1.375,
+      "out": 4.675
+    },
+    "aihubmix/qwen3-coder-next": {
+      "in": 0.13699999999999998,
+      "cached": 0.06849999999999999,
+      "cache_write": 0.13699999999999998,
+      "out": 0.5479999999999999
+    },
+    "aihubmix/qwen3.5-122b-a10b": {
+      "in": 0.1126,
+      "cached": 0.0563,
+      "cache_write": 0.1126,
+      "out": 0.9008
+    },
+    "aihubmix/qwen3.5-397b-a17b": {
+      "in": 0.1644,
+      "cached": 0.0822,
+      "cache_write": 0.1644,
+      "out": 0.9863999999999999
+    },
+    "aihubmix/qwen3.6-27b": {
+      "in": 0.422,
+      "cached": 0.211,
+      "cache_write": 0.422,
+      "out": 2.532
+    },
+    "aihubmix/qwen3.6-35b-a3b": {
+      "in": 0.254,
+      "cached": 0.127,
+      "cache_write": 0.254,
+      "out": 1.524
+    },
+    "aihubmix/qwen3.6-max-preview": {
+      "in": 1.268,
+      "cached": 0.1268,
+      "cache_write": 1.585,
+      "out": 7.608
+    },
+    "aihubmix/qwen3.7-plus": {
+      "in": 0.28200000000000003,
+      "cached": 0.0564,
+      "cache_write": 0.35250000000000004,
+      "out": 1.1280000000000001
+    },
+    "aihubmix/qwen3.8-2.4t-a95b": {
+      "in": 2.0,
+      "cached": 0.5,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "aihubmix/qwen3.8-flash": {
+      "in": 0.1126,
+      "cached": 0.014075,
+      "cache_write": 0.17593699999999998,
+      "out": 0.380025
+    },
+    "aihubmix/qwen3.8-max": {
+      "in": 1.69,
+      "cached": 0.16899999999999998,
+      "cache_write": 2.1125000000000003,
+      "out": 5.069999999999999
+    },
+    "aihubmix/step-3.7-flash": {
+      "in": 0.22,
+      "cached": 0.044,
+      "cache_write": 0.22,
+      "out": 1.32
     },
     "aisingapore/Gemma-SEA-LION-v4-27B-IT": {
       "in": 0.0,
@@ -8206,6 +8650,12 @@
       "cache_write": 0.35,
       "out": 0.69
     },
+    "cc-glm-5.1": {
+      "in": 0.06,
+      "cached": 0.03,
+      "cache_write": 0.06,
+      "out": 0.22
+    },
     "cerebras/gemma-4-31b": {
       "in": 0.9900000000000001,
       "cached": 0.49500000000000005,
@@ -8615,6 +9065,12 @@
       "out": 25.0
     },
     "claude-opus-4-8": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "claude-opus-4-8-think": {
       "in": 5.0,
       "cached": 0.5,
       "cache_write": 6.25,
@@ -9178,6 +9634,36 @@
       "cache_write": 1.5,
       "out": 6.0
     },
+    "coding-glm-5.3": {
+      "in": 0.06,
+      "cached": 0.015,
+      "cache_write": 0.06,
+      "out": 0.22
+    },
+    "coding-kimi-k3": {
+      "in": 0.44,
+      "cached": 0.06599999999999999,
+      "cache_write": 0.44,
+      "out": 1.6133300000000002
+    },
+    "coding-xiaomi-mimo-v2-omni": {
+      "in": 0.08,
+      "cached": 0.016,
+      "cache_write": 0.08,
+      "out": 0.39999999999999997
+    },
+    "coding-xiaomi-mimo-v2.5": {
+      "in": 0.08,
+      "cached": 0.0016,
+      "cache_write": 0.08,
+      "out": 0.16
+    },
+    "coding-xiaomi-mimo-v2.5-pro": {
+      "in": 0.19999999999999998,
+      "cached": 0.0016,
+      "cache_write": 0.19999999999999998,
+      "out": 0.39999999999999997
+    },
     "cogito-671b-v2-p1": {
       "in": 1.2,
       "cached": 0.6,
@@ -9467,6 +9953,12 @@
       "out": 10.0
     },
     "command-a-03-2025": {
+      "in": 2.5,
+      "cached": 1.25,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "command-a-plus-05-2026": {
       "in": 2.5,
       "cached": 1.25,
       "cache_write": 2.5,
@@ -12274,6 +12766,36 @@
       "cache_write": 0.0,
       "out": 0.0
     },
+    "doubao-seed-2-0-code-preview": {
+      "in": 0.4822,
+      "cached": 0.09644,
+      "cache_write": 0.4822,
+      "out": 2.411
+    },
+    "doubao-seed-2-0-lite-260428": {
+      "in": 0.09041,
+      "cached": 0.018082,
+      "cache_write": 0.09041,
+      "out": 0.5424599999999999
+    },
+    "doubao-seed-2-0-mini": {
+      "in": 0.030136,
+      "cached": 0.006027,
+      "cache_write": 0.030136,
+      "out": 0.30136
+    },
+    "doubao-seed-2-0-pro": {
+      "in": 0.4822,
+      "cached": 0.09644,
+      "cache_write": 0.4822,
+      "out": 2.411
+    },
+    "doubao-seed-2-1-turbo": {
+      "in": 0.46475,
+      "cached": 0.09294999999999999,
+      "cache_write": 0.46475,
+      "out": 2.32375
+    },
     "e5-mistral-7b-instruct": {
       "in": 0.01,
       "cached": 0.005,
@@ -12381,6 +12903,12 @@
       "cached": 0.049999999999999996,
       "cache_write": 0.09999999999999999,
       "out": 0.09999999999999999
+    },
+    "ernie-5.1": {
+      "in": 0.5634,
+      "cached": 0.5634,
+      "cache_write": 0.5634,
+      "out": 2.5353
     },
     "eu-central-1/anthropic.claude-instant-v1": {
       "in": 2.48,
@@ -15232,6 +15760,12 @@
       "cache_write": 0.5,
       "out": 3.0
     },
+    "gemini-3-flash-preview-search": {
+      "in": 0.5,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.5,
+      "out": 3.0
+    },
     "gemini-3-pro": {
       "in": 2.0,
       "cached": 1.0,
@@ -16287,6 +16821,12 @@
       "cached": 0.26,
       "cache_write": 1.4,
       "out": 4.4
+    },
+    "glm-5.2-fast-preview": {
+      "in": 2.254,
+      "cached": 0.5635,
+      "cache_write": 2.254,
+      "out": 7.889
     },
     "glm-5.2:free": {
       "in": 0.0,
@@ -17566,6 +18106,18 @@
       "cache_write": 2.5,
       "out": 15.0
     },
+    "gpt-5.4-high": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 15.0
+    },
+    "gpt-5.4-low": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 15.0
+    },
     "gpt-5.4-mini": {
       "in": 0.75,
       "cached": 0.075,
@@ -17657,6 +18209,12 @@
       "out": 1.2
     },
     "gpt-5.6-sol": {
+      "in": 4.0,
+      "cached": 0.39999999999999997,
+      "cache_write": 5.0,
+      "out": 20.0
+    },
+    "gpt-5.6-sol-disc": {
       "in": 4.0,
       "cached": 0.39999999999999997,
       "cache_write": 5.0,
@@ -18586,6 +19144,12 @@
       "cache_write": 0.14,
       "out": 0.58
     },
+    "hy4-preview": {
+      "in": 0.845,
+      "cached": 0.042249999999999996,
+      "cache_write": 0.845,
+      "out": 2.5349999999999997
+    },
     "hyperbolic/NousResearch/Hermes-3-Llama-3.1-70B": {
       "in": 0.12,
       "cached": 0.06,
@@ -19101,6 +19665,12 @@
       "cached": 0.19,
       "cache_write": 0.95,
       "out": 4.0
+    },
+    "kimi-k2.7-code-highspeed": {
+      "in": 1.9,
+      "cached": 0.32167,
+      "cache_write": 1.9,
+      "out": 7.9990000000000006
     },
     "kimi-k2p5": {
       "in": 0.6,
@@ -20272,6 +20842,12 @@
       "cache_write": 0.8999999999999999,
       "out": 0.8999999999999999
     },
+    "longcat-2.0": {
+      "in": 0.7746,
+      "cached": 0.015492,
+      "cache_write": 0.7746,
+      "out": 3.0984
+    },
     "lukealonso/GLM-5.1-NVFP4-MTP": {
       "in": 1.4,
       "cached": 0.0,
@@ -20385,6 +20961,12 @@
       "cached": 0.075,
       "cache_write": 0.75,
       "out": 4.5
+    },
+    "mai-thinking-1": {
+      "in": 2.0,
+      "cached": 1.0,
+      "cache_write": 2.0,
+      "out": 8.0
     },
     "mamba-codestral-7B-v0.1": {
       "in": 0.19,
@@ -21135,6 +21717,18 @@
       "cached": 0.01,
       "cache_write": 0.0,
       "out": 0.3
+    },
+    "mimo-v2-omni": {
+      "in": 0.44,
+      "cached": 0.088,
+      "cache_write": 0.44,
+      "out": 2.2
+    },
+    "mimo-v2-pro": {
+      "in": 1.1,
+      "cached": 0.22,
+      "cache_write": 1.1,
+      "out": 3.3000000000000003
     },
     "mimo-v2.5": {
       "in": 0.14,
