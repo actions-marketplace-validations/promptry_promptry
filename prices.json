@@ -1,6 +1,6 @@
 {
-  "version": "2026-09-17",
-  "updated": "2026-09-17T11:36:05Z",
+  "version": "2026-09-18",
+  "updated": "2026-09-18T11:08:34Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -485,10 +485,10 @@
       "out": 4.4
     },
     "FW-Kimi-K3": {
-      "in": 3.3000000000000003,
-      "cached": 0.33,
-      "cache_write": 3.3000000000000003,
-      "out": 16.5
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.0,
+      "out": 15.0
     },
     "FW-MiniMax-M2.5": {
       "in": 0.33,
@@ -1217,10 +1217,10 @@
       "out": 0.39999999999999997
     },
     "NVIDIA-Nemotron-3-Ultra-550B-A55B": {
-      "in": 0.75,
-      "cached": 0.15,
-      "cache_write": 0.75,
-      "out": 2.75
+      "in": 0.5,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.5,
+      "out": 2.1500000000000004
     },
     "NVIDIA-Nemotron-3.5-Lightning": {
       "in": 0.08,
@@ -1229,10 +1229,10 @@
       "out": 0.19999999999999998
     },
     "NVIDIA-Nemotron-3.5-Lightning-30B-A3B": {
-      "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
-      "cache_write": 0.09999999999999999,
-      "out": 0.25
+      "in": 0.07,
+      "cached": 0.04,
+      "cache_write": 0.07,
+      "out": 0.19999999999999998
     },
     "NVIDIA-Nemotron-Nano-9B-v2": {
       "in": 0.04,
@@ -4444,6 +4444,54 @@
       "cache_write": 0.22,
       "out": 1.32
     },
+    "aion-2.0": {
+      "in": 0.7999999999999999,
+      "cached": 0.19999999999999998,
+      "cache_write": 0.7999999999999999,
+      "out": 1.5999999999999999
+    },
+    "aion-3.0": {
+      "in": 3.0,
+      "cached": 0.75,
+      "cache_write": 3.0,
+      "out": 6.0
+    },
+    "aion-3.0-mini": {
+      "in": 0.7,
+      "cached": 0.18,
+      "cache_write": 0.7,
+      "out": 1.4
+    },
+    "aion-labs/aion-2.0": {
+      "in": 0.7999999999999999,
+      "cached": 0.19999999999999998,
+      "cache_write": 0.7999999999999999,
+      "out": 1.5999999999999999
+    },
+    "aion-labs/aion-3.0": {
+      "in": 3.0,
+      "cached": 0.75,
+      "cache_write": 3.0,
+      "out": 6.0
+    },
+    "aion-labs/aion-3.0-mini": {
+      "in": 0.7,
+      "cached": 0.18,
+      "cache_write": 0.7,
+      "out": 1.4
+    },
+    "aion-labs/aion-rp-llama-3.1-8b": {
+      "in": 0.7999999999999999,
+      "cached": 0.39999999999999997,
+      "cache_write": 0.7999999999999999,
+      "out": 1.5999999999999999
+    },
+    "aion-rp-llama-3.1-8b": {
+      "in": 0.7999999999999999,
+      "cached": 0.39999999999999997,
+      "cache_write": 0.7999999999999999,
+      "out": 1.5999999999999999
+    },
     "aisingapore/Gemma-SEA-LION-v4-27B-IT": {
       "in": 0.0,
       "cached": 0.0,
@@ -4636,7 +4684,19 @@
       "cache_write": 0.5,
       "out": 1.5
     },
+    "amazon/nova-2-lite-v1": {
+      "in": 0.3,
+      "cached": 0.15,
+      "cache_write": 0.3,
+      "out": 2.5
+    },
     "amazon/nova-lite": {
+      "in": 0.06,
+      "cached": 0.03,
+      "cache_write": 0.06,
+      "out": 0.24
+    },
+    "amazon/nova-lite-v1": {
       "in": 0.06,
       "cached": 0.03,
       "cache_write": 0.06,
@@ -4648,7 +4708,25 @@
       "cache_write": 0.035,
       "out": 0.14
     },
+    "amazon/nova-micro-v1": {
+      "in": 0.035,
+      "cached": 0.0175,
+      "cache_write": 0.035,
+      "out": 0.14
+    },
+    "amazon/nova-premier-v1": {
+      "in": 2.5,
+      "cached": 0.625,
+      "cache_write": 2.5,
+      "out": 12.5
+    },
     "amazon/nova-pro": {
+      "in": 0.7999999999999999,
+      "cached": 0.39999999999999997,
+      "cache_write": 0.7999999999999999,
+      "out": 3.1999999999999997
+    },
+    "amazon/nova-pro-v1": {
       "in": 0.7999999999999999,
       "cached": 0.39999999999999997,
       "cache_write": 0.7999999999999999,
@@ -4659,6 +4737,12 @@
       "cached": 0.01,
       "cache_write": 0.02,
       "out": 0.0
+    },
+    "anthracite-org/magnum-v4-72b": {
+      "in": 2.5,
+      "cached": 1.25,
+      "cache_write": 2.5,
+      "out": 5.0
     },
     "anthropic-claude-3-opus": {
       "in": 15.0,
@@ -4872,8 +4956,8 @@
     },
     "anthropic/claude-3-haiku": {
       "in": 0.25,
-      "cached": 0.125,
-      "cache_write": 0.25,
+      "cached": 0.03,
+      "cache_write": 0.3,
       "out": 1.25
     },
     "anthropic/claude-3-opus": {
@@ -4936,6 +5020,18 @@
       "cache_write": 12.5,
       "out": 50.0
     },
+    "anthropic/claude-fable-5.1:batch": {
+      "in": 5.0,
+      "cached": 0.125,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "anthropic/claude-fable-5:batch": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
     "anthropic/claude-haiku-4-5": {
       "in": 1.0,
       "cached": 0.09999999999999999,
@@ -4947,6 +5043,12 @@
       "cached": 0.09999999999999999,
       "cache_write": 1.25,
       "out": 5.0
+    },
+    "anthropic/claude-haiku-4.5:batch": {
+      "in": 0.5,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.625,
+      "out": 2.5
     },
     "anthropic/claude-opus-4": {
       "in": 15.0,
@@ -4984,11 +5086,23 @@
       "cache_write": 18.75,
       "out": 75.0
     },
+    "anthropic/claude-opus-4.1:batch": {
+      "in": 7.5,
+      "cached": 0.75,
+      "cache_write": 9.375,
+      "out": 37.5
+    },
     "anthropic/claude-opus-4.5": {
       "in": 5.0,
       "cached": 2.5,
       "cache_write": 5.0,
       "out": 25.0
+    },
+    "anthropic/claude-opus-4.5:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
     },
     "anthropic/claude-opus-4.6": {
       "in": 5.0,
@@ -4996,11 +5110,23 @@
       "cache_write": 6.25,
       "out": 25.0
     },
+    "anthropic/claude-opus-4.6:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
+    },
     "anthropic/claude-opus-4.7": {
       "in": 5.0,
       "cached": 0.5,
       "cache_write": 6.25,
       "out": 25.0
+    },
+    "anthropic/claude-opus-4.7:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
     },
     "anthropic/claude-opus-4.8": {
       "in": 5.0,
@@ -5008,11 +5134,23 @@
       "cache_write": 6.25,
       "out": 25.0
     },
+    "anthropic/claude-opus-4.8:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
+    },
     "anthropic/claude-opus-5": {
       "in": 5.0,
       "cached": 0.5,
       "cache_write": 6.25,
       "out": 25.0
+    },
+    "anthropic/claude-opus-5:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
     },
     "anthropic/claude-sonnet-4": {
       "in": 3.0,
@@ -5038,17 +5176,35 @@
       "cache_write": 3.0,
       "out": 15.0
     },
+    "anthropic/claude-sonnet-4.5:batch": {
+      "in": 1.5,
+      "cached": 0.15,
+      "cache_write": 1.875,
+      "out": 7.5
+    },
     "anthropic/claude-sonnet-4.6": {
       "in": 3.0,
       "cached": 0.3,
       "cache_write": 3.75,
       "out": 15.0
     },
+    "anthropic/claude-sonnet-4.6:batch": {
+      "in": 1.5,
+      "cached": 0.15,
+      "cache_write": 1.875,
+      "out": 7.5
+    },
     "anthropic/claude-sonnet-5": {
       "in": 2.0,
       "cached": 1.0,
       "cache_write": 2.0,
       "out": 10.0
+    },
+    "anthropic/claude-sonnet-5:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
     },
     "anyscale/HuggingFaceH4/zephyr-7b-beta": {
       "in": 0.15,
@@ -5337,6 +5493,12 @@
       "cached": 0.0,
       "cache_write": 0.0,
       "out": 0.0
+    },
+    "arcee-ai/trinity-large-thinking": {
+      "in": 0.25,
+      "cached": 0.06,
+      "cache_write": 0.25,
+      "out": 0.7999999999999999
     },
     "arcee-ai/trinity-mini": {
       "in": 0.045,
@@ -7127,10 +7289,10 @@
       "out": 4.4
     },
     "azure_ai/FW-Kimi-K3": {
-      "in": 3.3000000000000003,
-      "cached": 0.33,
-      "cache_write": 3.3000000000000003,
-      "out": 16.5
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.0,
+      "out": 15.0
     },
     "azure_ai/FW-MiniMax-M2.5": {
       "in": 0.33,
@@ -9034,9 +9196,45 @@
       "cache_write": 0.0,
       "out": 0.0
     },
-    "bytedance/ui-tars-1.5-7b": {
+    "bytedance-seed/seed-1.6": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 2.0
+    },
+    "bytedance-seed/seed-1.6-flash": {
+      "in": 0.075,
+      "cached": 0.0375,
+      "cache_write": 0.075,
+      "out": 0.3
+    },
+    "bytedance-seed/seed-2-1-turbo": {
+      "in": 0.5,
+      "cached": 0.25,
+      "cache_write": 0.5,
+      "out": 2.5
+    },
+    "bytedance-seed/seed-2.0-code": {
+      "in": 0.5,
+      "cached": 0.25,
+      "cache_write": 0.5,
+      "out": 3.0
+    },
+    "bytedance-seed/seed-2.0-lite": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 2.0
+    },
+    "bytedance-seed/seed-2.0-mini": {
       "in": 0.09999999999999999,
       "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.39999999999999997
+    },
+    "bytedance/ui-tars-1.5-7b": {
+      "in": 0.09999999999999999,
+      "cached": 0.09999999999999999,
       "cache_write": 0.09999999999999999,
       "out": 0.19999999999999998
     },
@@ -9210,8 +9408,8 @@
     },
     "claude-3-haiku": {
       "in": 0.25,
-      "cached": 0.125,
-      "cache_write": 0.25,
+      "cached": 0.03,
+      "cache_write": 0.3,
       "out": 1.25
     },
     "claude-3-haiku-20240307": {
@@ -9334,9 +9532,27 @@
       "cache_write": 12.5,
       "out": 50.0
     },
+    "claude-fable-5.1:batch": {
+      "in": 5.0,
+      "cached": 0.125,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "claude-fable-5:batch": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
     "claude-fable-5@default": {
       "in": 10.0,
       "cached": 1.0,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "claude-fable-latest": {
+      "in": 10.0,
+      "cached": 0.25,
       "cache_write": 12.5,
       "out": 50.0
     },
@@ -9359,6 +9575,18 @@
       "out": 5.0
     },
     "claude-haiku-4.5": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
+    "claude-haiku-4.5:batch": {
+      "in": 0.5,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.625,
+      "out": 2.5
+    },
+    "claude-haiku-latest": {
       "in": 1.0,
       "cached": 0.09999999999999999,
       "cache_write": 1.25,
@@ -9490,11 +9718,23 @@
       "cache_write": 18.75,
       "out": 75.0
     },
+    "claude-opus-4.1:batch": {
+      "in": 7.5,
+      "cached": 0.75,
+      "cache_write": 9.375,
+      "out": 37.5
+    },
     "claude-opus-4.5": {
       "in": 5.0,
       "cached": 2.5,
       "cache_write": 5.0,
       "out": 25.0
+    },
+    "claude-opus-4.5:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
     },
     "claude-opus-4.6": {
       "in": 5.0,
@@ -9502,17 +9742,35 @@
       "cache_write": 6.25,
       "out": 25.0
     },
+    "claude-opus-4.6:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
+    },
     "claude-opus-4.7": {
       "in": 5.0,
       "cached": 0.5,
       "cache_write": 6.25,
       "out": 25.0
     },
+    "claude-opus-4.7:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
+    },
     "claude-opus-4.8": {
       "in": 5.0,
       "cached": 0.5,
       "cache_write": 6.25,
       "out": 25.0
+    },
+    "claude-opus-4.8:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
     },
     "claude-opus-4@20250514": {
       "in": 15.0,
@@ -9526,7 +9784,19 @@
       "cache_write": 6.25,
       "out": 25.0
     },
+    "claude-opus-5:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
+    },
     "claude-opus-5@default": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "claude-opus-latest": {
       "in": 5.0,
       "cached": 0.5,
       "cache_write": 6.25,
@@ -9586,11 +9856,23 @@
       "cache_write": 3.0,
       "out": 15.0
     },
+    "claude-sonnet-4.5:batch": {
+      "in": 1.5,
+      "cached": 0.15,
+      "cache_write": 1.875,
+      "out": 7.5
+    },
     "claude-sonnet-4.6": {
       "in": 3.0,
       "cached": 0.3,
       "cache_write": 3.75,
       "out": 15.0
+    },
+    "claude-sonnet-4.6:batch": {
+      "in": 1.5,
+      "cached": 0.15,
+      "cache_write": 1.875,
+      "out": 7.5
     },
     "claude-sonnet-4@20250514": {
       "in": 3.0,
@@ -9604,7 +9886,19 @@
       "cache_write": 2.5,
       "out": 10.0
     },
+    "claude-sonnet-5:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
     "claude-sonnet-5@default": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "claude-sonnet-latest": {
       "in": 2.0,
       "cached": 0.19999999999999998,
       "cache_write": 2.5,
@@ -9970,6 +10264,12 @@
       "cache_write": 0.3,
       "out": 0.8999999999999999
     },
+    "codestral-2508:batch": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.44999999999999996
+    },
     "codestral-2@001": {
       "in": 0.3,
       "cached": 0.15,
@@ -9996,7 +10296,7 @@
     },
     "codestral-mamba-latest": {
       "in": 0.25,
-      "cached": 0.125,
+      "cached": 0.024999999999999998,
       "cache_write": 0.25,
       "out": 0.25
     },
@@ -10119,6 +10419,12 @@
       "cached": 1.0,
       "cache_write": 2.5,
       "out": 12.5
+    },
+    "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
+      "in": 0.19999999999999998,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.19999999999999998,
+      "out": 0.8999999999999999
     },
     "cohere-command-a": {
       "in": 2.5,
@@ -10330,16 +10636,40 @@
       "cache_write": 0.15,
       "out": 0.6
     },
+    "cohere/command-r-08-2024": {
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
     "cohere/command-r-plus": {
       "in": 2.5,
       "cached": 1.25,
       "cache_write": 2.5,
       "out": 10.0
     },
+    "cohere/command-r-plus-08-2024": {
+      "in": 2.5,
+      "cached": 1.25,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "cohere/command-r7b-12-2024": {
+      "in": 0.0375,
+      "cached": 0.01875,
+      "cache_write": 0.0375,
+      "out": 0.15
+    },
     "cohere/embed-v4.0": {
       "in": 0.12,
       "cached": 0.06,
       "cache_write": 0.12,
+      "out": 0.0
+    },
+    "cohere/north-mini-code:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
       "out": 0.0
     },
     "command": {
@@ -10467,6 +10797,12 @@
       "cached": 0.39999999999999997,
       "cache_write": 0.7999999999999999,
       "out": 0.7999999999999999
+    },
+    "cydonia-24b-v4.1": {
+      "in": 0.3,
+      "cached": 0.15,
+      "cache_write": 0.3,
+      "out": 0.5
     },
     "dall-e-2": {
       "in": 0.0,
@@ -12550,6 +12886,12 @@
       "cache_write": 0.0,
       "out": 1.2
     },
+    "deepseek-flash-latest": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
     "deepseek-llama3.3-70b": {
       "in": 0.19999999999999998,
       "cached": 0.09999999999999999,
@@ -12573,6 +12915,12 @@
       "cached": 0.15,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "deepseek-pro-latest": {
+      "in": 0.66,
+      "cached": 0.022,
+      "cache_write": 0.66,
+      "out": 1.9800000000000002
     },
     "deepseek-prover-v2": {
       "in": 1.2,
@@ -12802,6 +13150,24 @@
       "cache_write": 0.19999999999999998,
       "out": 0.39999999999999997
     },
+    "deepseek-v4-flash-0731:batch": {
+      "in": 0.11,
+      "cached": 0.0035,
+      "cache_write": 0.11,
+      "out": 0.33
+    },
+    "deepseek-v4-flash-0731:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "deepseek-v4-flash-latest": {
+      "in": 0.055799999999999995,
+      "cached": 0.008799999999999999,
+      "cache_write": 0.055799999999999995,
+      "out": 0.1767
+    },
     "deepseek-v4-flash-thinking": {
       "in": 0.25,
       "cached": 0.125,
@@ -12814,6 +13180,12 @@
       "cache_write": 0.0,
       "out": 1.2
     },
+    "deepseek-v4-flash-vision-exp:batch": {
+      "in": 0.11,
+      "cached": 0.0035,
+      "cache_write": 0.11,
+      "out": 0.33
+    },
     "deepseek-v4-pro": {
       "in": 1.32,
       "cached": 0.044,
@@ -12825,6 +13197,12 @@
       "cached": 0.044,
       "cache_write": 1.32,
       "out": 3.9600000000000004
+    },
+    "deepseek-v4-pro-0813:batch": {
+      "in": 0.66,
+      "cached": 0.022,
+      "cache_write": 0.66,
+      "out": 1.9800000000000002
     },
     "deepseek-v4.1-flash": {
       "in": 0.15,
@@ -12906,7 +13284,7 @@
     },
     "deepseek/deepseek-r1-0528": {
       "in": 0.5,
-      "cached": 0.25,
+      "cached": 0.35,
       "cache_write": 0.5,
       "out": 2.1500000000000004
     },
@@ -13012,11 +13390,29 @@
       "cache_write": 0.44,
       "out": 1.32
     },
+    "deepseek/deepseek-v4-flash-0731:batch": {
+      "in": 0.11,
+      "cached": 0.0035,
+      "cache_write": 0.11,
+      "out": 0.33
+    },
+    "deepseek/deepseek-v4-flash-0731:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "in": 0.3,
       "cached": 0.006,
       "cache_write": 0.0,
       "out": 1.2
+    },
+    "deepseek/deepseek-v4-flash-vision-exp:batch": {
+      "in": 0.11,
+      "cached": 0.0035,
+      "cache_write": 0.11,
+      "out": 0.33
     },
     "deepseek/deepseek-v4-pro": {
       "in": 1.32,
@@ -13025,10 +13421,16 @@
       "out": 3.9600000000000004
     },
     "deepseek/deepseek-v4-pro-0813": {
-      "in": 0.57948,
-      "cached": 0.019316,
-      "cache_write": 0.57948,
-      "out": 1.73844
+      "in": 0.66,
+      "cached": 0.022,
+      "cache_write": 0.66,
+      "out": 1.9800000000000002
+    },
+    "deepseek/deepseek-v4-pro-0813:batch": {
+      "in": 0.66,
+      "cached": 0.022,
+      "cache_write": 0.66,
+      "out": 1.9800000000000002
     },
     "deepseek/deepseek-v4.1-flash": {
       "in": 0.15,
@@ -13062,7 +13464,7 @@
     },
     "devstral-latest": {
       "in": 0.39999999999999997,
-      "cached": 0.19999999999999998,
+      "cached": 0.04,
       "cache_write": 0.39999999999999997,
       "out": 2.0
     },
@@ -13074,7 +13476,7 @@
     },
     "devstral-medium-latest": {
       "in": 0.39999999999999997,
-      "cached": 0.19999999999999998,
+      "cached": 0.04,
       "cache_write": 0.39999999999999997,
       "out": 2.0
     },
@@ -13098,7 +13500,7 @@
     },
     "devstral-small-latest": {
       "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
+      "cached": 0.01,
       "cache_write": 0.09999999999999999,
       "out": 0.3
     },
@@ -13132,11 +13534,29 @@
       "cache_write": 0.5,
       "out": 0.5
     },
+    "dolphin-mistral-24b-venice-edition": {
+      "in": 0.19999999999999998,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.19999999999999998,
+      "out": 0.8999999999999999
+    },
     "dolphin3-8b": {
       "in": 0.08,
       "cached": 0.04,
       "cache_write": 0.08,
       "out": 0.15
+    },
+    "dots-3-note-preview:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "dots-studio/dots-3-note-preview:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
     },
     "doubao-embedding": {
       "in": 0.0,
@@ -16228,6 +16648,24 @@
       "cache_write": 4.0,
       "out": 16.0
     },
+    "fugu-max": {
+      "in": 2.0,
+      "cached": 0.25,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "fugu-ultra": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 30.0
+    },
+    "fugu-ultra-v2": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 30.0
+    },
     "gemini-1.5-flash": {
       "in": 0.075,
       "cached": 0.0375,
@@ -16300,6 +16738,12 @@
       "cache_write": 0.09999999999999999,
       "out": 0.39999999999999997
     },
+    "gemini-2.5-flash-lite:batch": {
+      "in": 0.049999999999999996,
+      "cached": 0.01,
+      "cache_write": 0.049999999999999996,
+      "out": 0.19999999999999998
+    },
     "gemini-2.5-flash-native-audio": {
       "in": 0.5,
       "cached": 0.25,
@@ -16336,6 +16780,12 @@
       "cache_write": 0.5,
       "out": 10.0
     },
+    "gemini-2.5-flash:batch": {
+      "in": 0.15,
+      "cached": 0.03,
+      "cache_write": 0.15,
+      "out": 1.25
+    },
     "gemini-2.5-pro": {
       "in": 1.25,
       "cached": 0.125,
@@ -16360,6 +16810,12 @@
       "cache_write": 1.0,
       "out": 20.0
     },
+    "gemini-2.5-pro:batch": {
+      "in": 0.625,
+      "cached": 0.125,
+      "cache_write": 0.625,
+      "out": 5.0
+    },
     "gemini-3-flash-preview": {
       "in": 0.5,
       "cached": 0.049999999999999996,
@@ -16371,6 +16827,12 @@
       "cached": 0.049999999999999996,
       "cache_write": 0.5,
       "out": 3.0
+    },
+    "gemini-3-flash-preview:batch": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 1.5
     },
     "gemini-3-pro": {
       "in": 2.0,
@@ -16426,6 +16888,12 @@
       "cache_write": 0.25,
       "out": 1.5
     },
+    "gemini-3.1-flash-lite:batch": {
+      "in": 0.125,
+      "cached": 0.012499999999999999,
+      "cache_write": 0.125,
+      "out": 0.75
+    },
     "gemini-3.1-flash-live-preview": {
       "in": 0.75,
       "cached": 0.375,
@@ -16456,6 +16924,12 @@
       "cache_write": 2.0,
       "out": 12.0
     },
+    "gemini-3.1-pro-preview:batch": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 6.0
+    },
     "gemini-3.5-flash": {
       "in": 1.5,
       "cached": 0.15,
@@ -16467,6 +16941,18 @@
       "cached": 0.03,
       "cache_write": 0.3,
       "out": 2.5
+    },
+    "gemini-3.5-flash-lite:batch": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 1.25
+    },
+    "gemini-3.5-flash:batch": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.75,
+      "out": 4.5
     },
     "gemini-3.5-live-translate-preview": {
       "in": 3.5,
@@ -16504,17 +16990,35 @@
       "cache_write": 0.75,
       "out": 3.75
     },
+    "gemini-3.6-flash:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.0416666666666667,
+      "out": 1.875
+    },
     "gemini-3.7-flash": {
       "in": 0.75,
       "cached": 0.075,
       "cache_write": 0.75,
       "out": 3.75
     },
+    "gemini-3.7-flash:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.0416666666666667,
+      "out": 1.875
+    },
     "gemini-3.8-flash": {
       "in": 0.75,
       "cached": 0.075,
       "cache_write": 0.75,
       "out": 3.75
+    },
+    "gemini-3.8-flash:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.0416666666666667,
+      "out": 1.875
     },
     "gemini-3.8-live": {
       "in": 0.75,
@@ -17412,7 +17916,7 @@
     },
     "glm-5": {
       "in": 0.6,
-      "cached": 0.3,
+      "cached": 0.12,
       "cache_write": 0.6,
       "out": 1.92
     },
@@ -17458,6 +17962,12 @@
       "cache_write": 2.254,
       "out": 7.889
     },
+    "glm-5.2:batch": {
+      "in": 0.7,
+      "cached": 0.07,
+      "cache_write": 0.7,
+      "out": 2.2
+    },
     "glm-5.2:free": {
       "in": 0.0,
       "cached": 0.0,
@@ -17475,6 +17985,18 @@
       "cached": 0.03,
       "cache_write": 0.0,
       "out": 0.5
+    },
+    "glm-5.3-flash:batch": {
+      "in": 0.075,
+      "cached": 0.015,
+      "cache_write": 0.075,
+      "out": 0.25
+    },
+    "glm-5.3:batch": {
+      "in": 0.7,
+      "cached": 0.13,
+      "cache_write": 0.7,
+      "out": 2.2
     },
     "glm-5p1": {
       "in": 1.4,
@@ -17529,6 +18051,18 @@
       "cached": 0.24,
       "cache_write": 1.2,
       "out": 4.0
+    },
+    "glm-flash-latest": {
+      "in": 0.075,
+      "cached": 0.015,
+      "cache_write": 0.075,
+      "out": 0.25
+    },
+    "glm-latest": {
+      "in": 0.8775,
+      "cached": 0.1755,
+      "cache_write": 0.8775,
+      "out": 2.9699999999999998
     },
     "global-standard/gpt-4o-2024-08-06": {
       "in": 2.5,
@@ -17911,8 +18445,20 @@
     "google/gemini-2.5-flash-lite": {
       "in": 0.09999999999999999,
       "cached": 0.01,
-      "cache_write": 0.09999999999999999,
+      "cache_write": 0.0833333333333333,
       "out": 0.39999999999999997
+    },
+    "google/gemini-2.5-flash-lite:batch": {
+      "in": 0.049999999999999996,
+      "cached": 0.01,
+      "cache_write": 0.049999999999999996,
+      "out": 0.19999999999999998
+    },
+    "google/gemini-2.5-flash:batch": {
+      "in": 0.15,
+      "cached": 0.03,
+      "cache_write": 0.15,
+      "out": 1.25
     },
     "google/gemini-2.5-pro": {
       "in": 1.25,
@@ -17932,11 +18478,23 @@
       "cache_write": 0.375,
       "out": 10.0
     },
+    "google/gemini-2.5-pro:batch": {
+      "in": 0.625,
+      "cached": 0.125,
+      "cache_write": 0.625,
+      "out": 5.0
+    },
     "google/gemini-3-flash-preview": {
       "in": 0.5,
       "cached": 0.25,
       "cache_write": 0.5,
       "out": 3.0
+    },
+    "google/gemini-3-flash-preview:batch": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 1.5
     },
     "google/gemini-3-pro": {
       "in": 2.0,
@@ -17977,7 +18535,7 @@
     "google/gemini-3.1-flash-lite": {
       "in": 0.25,
       "cached": 0.024999999999999998,
-      "cache_write": 0.25,
+      "cache_write": 0.0833333333333333,
       "out": 1.5
     },
     "google/gemini-3.1-flash-lite-image": {
@@ -17989,8 +18547,14 @@
     "google/gemini-3.1-flash-lite-preview": {
       "in": 0.25,
       "cached": 0.024999999999999998,
-      "cache_write": 0.25,
+      "cache_write": 0.0833333333333333,
       "out": 1.5
+    },
+    "google/gemini-3.1-flash-lite:batch": {
+      "in": 0.125,
+      "cached": 0.012499999999999999,
+      "cache_write": 0.125,
+      "out": 0.75
     },
     "google/gemini-3.1-pro": {
       "in": 2.0,
@@ -18001,7 +18565,7 @@
     "google/gemini-3.1-pro-preview": {
       "in": 2.0,
       "cached": 0.19999999999999998,
-      "cache_write": 2.0,
+      "cache_write": 0.375,
       "out": 12.0
     },
     "google/gemini-3.1-pro-preview-customtools": {
@@ -18009,6 +18573,12 @@
       "cached": 0.19999999999999998,
       "cache_write": 0.375,
       "out": 12.0
+    },
+    "google/gemini-3.1-pro-preview:batch": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 6.0
     },
     "google/gemini-3.5-flash": {
       "in": 1.5,
@@ -18022,11 +18592,29 @@
       "cache_write": 0.3,
       "out": 2.5
     },
+    "google/gemini-3.5-flash-lite:batch": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 1.25
+    },
+    "google/gemini-3.5-flash:batch": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.75,
+      "out": 4.5
+    },
     "google/gemini-3.6-flash": {
       "in": 1.5,
       "cached": 0.15,
       "cache_write": 1.5,
       "out": 7.5
+    },
+    "google/gemini-3.6-flash:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.0416666666666667,
+      "out": 1.875
     },
     "google/gemini-3.7-flash": {
       "in": 0.75,
@@ -18034,11 +18622,23 @@
       "cache_write": 0.75,
       "out": 3.75
     },
+    "google/gemini-3.7-flash:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.0416666666666667,
+      "out": 1.875
+    },
     "google/gemini-3.8-flash": {
       "in": 0.75,
       "cached": 0.075,
-      "cache_write": 0.75,
+      "cache_write": 0.0416666666666667,
       "out": 3.75
+    },
+    "google/gemini-3.8-flash:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.0416666666666667,
+      "out": 1.875
     },
     "google/gemini-embedding-001": {
       "in": 0.15,
@@ -18172,6 +18772,12 @@
       "cache_write": 0.5,
       "out": 1.5
     },
+    "gpt-3.5-turbo-0613": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 2.0
+    },
     "gpt-3.5-turbo-1106": {
       "in": 1.0,
       "cached": 0.5,
@@ -18195,6 +18801,12 @@
       "cached": 0.75,
       "cache_write": 1.5,
       "out": 2.0
+    },
+    "gpt-3.5-turbo:batch": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 0.75
     },
     "gpt-35-turbo": {
       "in": 0.5,
@@ -18304,6 +18916,12 @@
       "cache_write": 10.0,
       "out": 30.0
     },
+    "gpt-4-turbo:batch": {
+      "in": 5.0,
+      "cached": 2.5,
+      "cache_write": 5.0,
+      "out": 15.0
+    },
     "gpt-4.1": {
       "in": 2.0,
       "cached": 0.5,
@@ -18328,6 +18946,12 @@
       "cache_write": 0.39999999999999997,
       "out": 1.5999999999999999
     },
+    "gpt-4.1-mini:batch": {
+      "in": 0.19999999999999998,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.19999999999999998,
+      "out": 0.7999999999999999
+    },
     "gpt-4.1-nano": {
       "in": 0.09999999999999999,
       "cached": 0.024999999999999998,
@@ -18339,6 +18963,18 @@
       "cached": 0.024999999999999998,
       "cache_write": 0.09999999999999999,
       "out": 0.39999999999999997
+    },
+    "gpt-4.1-nano:batch": {
+      "in": 0.049999999999999996,
+      "cached": 0.012499999999999999,
+      "cache_write": 0.049999999999999996,
+      "out": 0.19999999999999998
+    },
+    "gpt-4.1:batch": {
+      "in": 1.0,
+      "cached": 0.25,
+      "cache_write": 1.0,
+      "out": 4.0
     },
     "gpt-4.5-preview": {
       "in": 75.0,
@@ -18472,6 +19108,12 @@
       "cache_write": 0.6,
       "out": 10.0
     },
+    "gpt-4o-mini:batch": {
+      "in": 0.075,
+      "cached": 0.0375,
+      "cache_write": 0.075,
+      "out": 0.3
+    },
     "gpt-4o-realtime-preview": {
       "in": 5.0,
       "cached": 2.5,
@@ -18520,6 +19162,12 @@
       "cache_write": 2.5,
       "out": 10.0
     },
+    "gpt-4o:batch": {
+      "in": 1.25,
+      "cached": 0.625,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
     "gpt-5": {
       "in": 1.25,
       "cached": 0.125,
@@ -18550,6 +19198,18 @@
       "cache_write": 1.25,
       "out": 10.0
     },
+    "gpt-5-image": {
+      "in": 10.0,
+      "cached": 1.25,
+      "cache_write": 10.0,
+      "out": 10.0
+    },
+    "gpt-5-image-mini": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 2.0
+    },
     "gpt-5-mini": {
       "in": 0.25,
       "cached": 0.024999999999999998,
@@ -18561,6 +19221,12 @@
       "cached": 0.024999999999999998,
       "cache_write": 0.25,
       "out": 2.0
+    },
+    "gpt-5-mini:batch": {
+      "in": 0.125,
+      "cached": 0.012499999999999999,
+      "cache_write": 0.125,
+      "out": 1.0
     },
     "gpt-5-nano": {
       "in": 0.049999999999999996,
@@ -18574,6 +19240,12 @@
       "cache_write": 0.049999999999999996,
       "out": 0.39999999999999997
     },
+    "gpt-5-nano:batch": {
+      "in": 0.024999999999999998,
+      "cached": 0.0025,
+      "cache_write": 0.024999999999999998,
+      "out": 0.19999999999999998
+    },
     "gpt-5-pro": {
       "in": 15.0,
       "cached": 7.5,
@@ -18585,6 +19257,12 @@
       "cached": 7.5,
       "cache_write": 15.0,
       "out": 120.0
+    },
+    "gpt-5-pro:batch": {
+      "in": 7.5,
+      "cached": 3.75,
+      "cache_write": 7.5,
+      "out": 60.0
     },
     "gpt-5-search-api": {
       "in": 1.25,
@@ -18658,6 +19336,12 @@
       "cache_write": 0.25,
       "out": 2.0
     },
+    "gpt-5.1:batch": {
+      "in": 0.625,
+      "cached": 0.0625,
+      "cache_write": 0.625,
+      "out": 5.0
+    },
     "gpt-5.2": {
       "in": 1.75,
       "cached": 0.175,
@@ -18706,6 +19390,18 @@
       "cache_write": 21.0,
       "out": 168.0
     },
+    "gpt-5.2-pro:batch": {
+      "in": 10.5,
+      "cached": 5.25,
+      "cache_write": 10.5,
+      "out": 84.0
+    },
+    "gpt-5.2:batch": {
+      "in": 0.875,
+      "cached": 0.0875,
+      "cache_write": 0.875,
+      "out": 7.0
+    },
     "gpt-5.3-chat": {
       "in": 1.75,
       "cached": 0.175,
@@ -18742,6 +19438,12 @@
       "cache_write": 2.5,
       "out": 15.0
     },
+    "gpt-5.4-image-2": {
+      "in": 8.0,
+      "cached": 2.0,
+      "cache_write": 8.0,
+      "out": 15.0
+    },
     "gpt-5.4-low": {
       "in": 2.5,
       "cached": 0.25,
@@ -18760,6 +19462,12 @@
       "cache_write": 0.75,
       "out": 4.5
     },
+    "gpt-5.4-mini:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.375,
+      "out": 2.25
+    },
     "gpt-5.4-nano": {
       "in": 0.19999999999999998,
       "cached": 0.02,
@@ -18772,6 +19480,12 @@
       "cache_write": 0.19999999999999998,
       "out": 1.25
     },
+    "gpt-5.4-nano:batch": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.09999999999999999,
+      "out": 0.625
+    },
     "gpt-5.4-pro": {
       "in": 30.0,
       "cached": 15.0,
@@ -18783,6 +19497,18 @@
       "cached": 15.0,
       "cache_write": 30.0,
       "out": 180.0
+    },
+    "gpt-5.4-pro:batch": {
+      "in": 15.0,
+      "cached": 7.5,
+      "cache_write": 15.0,
+      "out": 90.0
+    },
+    "gpt-5.4:batch": {
+      "in": 1.25,
+      "cached": 0.125,
+      "cache_write": 1.25,
+      "out": 7.5
     },
     "gpt-5.5": {
       "in": 5.0,
@@ -18820,6 +19546,18 @@
       "cache_write": 30.0,
       "out": 180.0
     },
+    "gpt-5.5-pro:batch": {
+      "in": 15.0,
+      "cached": 7.5,
+      "cache_write": 15.0,
+      "out": 90.0
+    },
+    "gpt-5.5:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 15.0
+    },
     "gpt-5.6": {
       "in": 4.0,
       "cached": 0.39999999999999997,
@@ -18850,6 +19588,18 @@
       "cache_write": 0.25,
       "out": 1.2
     },
+    "gpt-5.6-luna-pro:batch": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.09999999999999999,
+      "out": 0.6
+    },
+    "gpt-5.6-luna:batch": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.09999999999999999,
+      "out": 0.6
+    },
     "gpt-5.6-sol": {
       "in": 4.0,
       "cached": 0.39999999999999997,
@@ -18874,6 +19624,18 @@
       "cache_write": 2.5,
       "out": 10.0
     },
+    "gpt-5.6-sol-pro:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
+    "gpt-5.6-sol:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
     "gpt-5.6-terra": {
       "in": 2.0,
       "cached": 0.19999999999999998,
@@ -18892,6 +19654,24 @@
       "cache_write": 2.5,
       "out": 12.0
     },
+    "gpt-5.6-terra-pro:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.0,
+      "out": 6.0
+    },
+    "gpt-5.6-terra:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.0,
+      "out": 6.0
+    },
+    "gpt-5:batch": {
+      "in": 0.625,
+      "cached": 0.0625,
+      "cache_write": 0.625,
+      "out": 5.0
+    },
     "gpt-6-astra": {
       "in": 10.0,
       "cached": 1.0,
@@ -18905,6 +19685,24 @@
       "out": 50.0
     },
     "gpt-6-astra-pro": {
+      "in": 10.0,
+      "cached": 1.0,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "gpt-6-astra-pro:batch": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "gpt-6-astra:batch": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "gpt-astra-latest": {
       "in": 10.0,
       "cached": 1.0,
       "cache_write": 12.5,
@@ -19030,6 +19828,18 @@
       "cache_write": 5.0,
       "out": 0.0
     },
+    "gpt-luna-latest": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.25,
+      "out": 1.2
+    },
+    "gpt-mini-latest": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.75,
+      "out": 4.5
+    },
     "gpt-oss-120b": {
       "in": 0.15,
       "cached": 0.075,
@@ -19059,6 +19869,12 @@
       "cached": 0.0,
       "cache_write": 0.0,
       "out": 0.0
+    },
+    "gpt-oss-120b:batch": {
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 0.6
     },
     "gpt-oss-20b": {
       "in": 0.19999999999999998,
@@ -19167,6 +19983,18 @@
       "cached": 0.5,
       "cache_write": 5.0,
       "out": 25.0
+    },
+    "gpt-sol-latest": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "gpt-terra-latest": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 12.0
     },
     "gradient_ai/anthropic-claude-3-opus": {
       "in": 15.0,
@@ -19576,6 +20404,12 @@
       "cache_write": 1.25,
       "out": 2.5
     },
+    "grok-4.3:batch": {
+      "in": 1.0,
+      "cached": 0.16,
+      "cache_write": 1.0,
+      "out": 2.0
+    },
     "grok-4.5": {
       "in": 2.0,
       "cached": 0.3,
@@ -19623,6 +20457,12 @@
       "cached": 0.19999999999999998,
       "cache_write": 1.0,
       "out": 2.0
+    },
+    "grok-latest": {
+      "in": 2.0,
+      "cached": 0.5,
+      "cache_write": 2.0,
+      "out": 6.0
     },
     "groq/gemma-7b-it": {
       "in": 0.049999999999999996,
@@ -19774,6 +20614,24 @@
       "cache_write": 0.15,
       "out": 0.6
     },
+    "hermes-3-llama-3.1-405b": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 1.0
+    },
+    "hermes-3-llama-3.1-70b": {
+      "in": 0.7,
+      "cached": 0.35,
+      "cache_write": 0.7,
+      "out": 0.7
+    },
+    "hermes-4-405b": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 3.0
+    },
     "hermes3-405b": {
       "in": 0.7999999999999999,
       "cached": 0.39999999999999997,
@@ -19798,11 +20656,41 @@
       "cache_write": 0.3,
       "out": 0.7
     },
+    "hunyuan-a13b-instruct": {
+      "in": 0.14,
+      "cached": 0.07,
+      "cache_write": 0.14,
+      "out": 0.5700000000000001
+    },
+    "hy-mt2-1.8b": {
+      "in": 0.044,
+      "cached": 0.022,
+      "cache_write": 0.044,
+      "out": 0.17700000000000002
+    },
+    "hy-mt2-30b-a3b": {
+      "in": 0.074,
+      "cached": 0.037,
+      "cache_write": 0.074,
+      "out": 0.295
+    },
+    "hy-mt2-7b": {
+      "in": 0.074,
+      "cached": 0.037,
+      "cache_write": 0.074,
+      "out": 0.295
+    },
     "hy3": {
       "in": 0.14,
       "cached": 0.035,
       "cache_write": 0.14,
       "out": 0.58
+    },
+    "hy3-preview": {
+      "in": 0.18,
+      "cached": 0.06,
+      "cache_write": 0.18,
+      "out": 0.6
     },
     "hy4-preview": {
       "in": 0.845,
@@ -19911,6 +20799,12 @@
       "cached": 0.015,
       "cache_write": 0.03,
       "out": 0.25
+    },
+    "ibm-granite/granite-4.0-h-micro": {
+      "in": 0.017,
+      "cached": 0.0085,
+      "cache_write": 0.017,
+      "out": 0.112
     },
     "ibm-granite/granite-4.1-8b": {
       "in": 0.049999999999999996,
@@ -20026,11 +20920,77 @@
       "cache_write": 0.06,
       "out": 0.18
     },
+    "inclusionai/ling-3.0-flash-fin": {
+      "in": 0.06,
+      "cached": 0.012,
+      "cache_write": 0.06,
+      "out": 0.18
+    },
+    "inclusionai/ling-3.0-flash-fin:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "inclusionai/ling-3.0-flash-sante:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "inclusionai/ling-3.0-flash-vl": {
+      "in": 0.06,
+      "cached": 0.012,
+      "cache_write": 0.06,
+      "out": 0.18
+    },
+    "inclusionai/ling-3.0-flash-vl:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "inference-net/schematron-v2-small": {
+      "in": 0.049999999999999996,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.049999999999999996,
+      "out": 0.22999999999999998
+    },
+    "inference-net/schematron-v2-turbo": {
+      "in": 0.03,
+      "cached": 0.03,
+      "cache_write": 0.03,
+      "out": 0.15
+    },
     "inkling": {
       "in": 1.0,
       "cached": 0.16999999999999998,
       "cache_write": 1.0,
       "out": 4.05
+    },
+    "inkling-small": {
+      "in": 0.44999999999999996,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.44999999999999996,
+      "out": 1.2
+    },
+    "inkling-small:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "inkling:batch": {
+      "in": 1.0,
+      "cached": 0.16999999999999998,
+      "cache_write": 1.0,
+      "out": 4.05
+    },
+    "inkling:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
     },
     "internlm2_5-20b-chat": {
       "in": 0.0,
@@ -20170,6 +21130,24 @@
       "cache_write": 0.00013,
       "out": 0.00013
     },
+    "jev-1.13.0": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
+    "jev-latest": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
+    "jev-preview": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
     "jina-reranker-v2-base-multilingual": {
       "in": 0.049999999999999996,
       "cached": 0.024999999999999998,
@@ -20229,6 +21207,18 @@
       "cached": 0.06,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "kat-coder-pro-v2": {
+      "in": 0.3,
+      "cached": 0.06,
+      "cache_write": 0.3,
+      "out": 1.2
+    },
+    "kat-coder-pro-v2.5": {
+      "in": 0.74,
+      "cached": 0.15,
+      "cache_write": 0.74,
+      "out": 2.96
     },
     "kat-dev-32b": {
       "in": 0.8999999999999999,
@@ -20380,6 +21370,12 @@
       "cache_write": 3.3000000000000003,
       "out": 16.5
     },
+    "kimi-k3:batch": {
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.0,
+      "out": 15.0
+    },
     "kimi-latest": {
       "in": 2.0,
       "cached": 0.15,
@@ -20416,6 +21412,18 @@
       "cache_write": 0.3,
       "out": 1.2
     },
+    "kwaipilot/kat-coder-pro-v2": {
+      "in": 0.3,
+      "cached": 0.06,
+      "cache_write": 0.3,
+      "out": 1.2
+    },
+    "kwaipilot/kat-coder-pro-v2.5": {
+      "in": 0.74,
+      "cached": 0.15,
+      "cache_write": 0.74,
+      "out": 2.96
+    },
     "l3-70b-euryale-v2.1": {
       "in": 1.48,
       "cached": 0.74,
@@ -20427,6 +21435,24 @@
       "cached": 0.024999999999999998,
       "cache_write": 0.049999999999999996,
       "out": 0.049999999999999996
+    },
+    "l3-lunaris-8b": {
+      "in": 0.04,
+      "cached": 0.02,
+      "cache_write": 0.04,
+      "out": 0.049999999999999996
+    },
+    "l3.1-euryale-70b": {
+      "in": 0.85,
+      "cached": 0.425,
+      "cache_write": 0.85,
+      "out": 0.85
+    },
+    "l3.3-euryale-70b": {
+      "in": 0.65,
+      "cached": 0.325,
+      "cache_write": 0.65,
+      "out": 0.75
     },
     "l31-70b-euryale-v2.2": {
       "in": 1.48,
@@ -20632,6 +21658,12 @@
       "cache_write": 0.0,
       "out": 0.0
     },
+    "lfm-2.5-2.6b:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
     "lfm-40b": {
       "in": 0.09999999999999999,
       "cached": 0.049999999999999996,
@@ -20727,6 +21759,42 @@
       "cached": 0.012,
       "cache_write": 0.06,
       "out": 0.18
+    },
+    "ling-3.0-flash-fin": {
+      "in": 0.06,
+      "cached": 0.012,
+      "cache_write": 0.06,
+      "out": 0.18
+    },
+    "ling-3.0-flash-fin:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "ling-3.0-flash-sante:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "ling-3.0-flash-vl": {
+      "in": 0.06,
+      "cached": 0.012,
+      "cache_write": 0.06,
+      "out": 0.18
+    },
+    "ling-3.0-flash-vl:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "liquid/lfm-2.5-2.6b:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
     },
     "llama-2-13b": {
       "in": 0.09999999999999999,
@@ -21610,6 +22678,12 @@
       "cache_write": 0.15,
       "out": 0.6
     },
+    "magnum-v4-72b": {
+      "in": 2.5,
+      "cached": 1.25,
+      "cache_write": 2.5,
+      "out": 5.0
+    },
     "mai-code-1-flash": {
       "in": 0.75,
       "cached": 0.075,
@@ -21639,6 +22713,12 @@
       "cached": 0.19999999999999998,
       "cache_write": 0.39999999999999997,
       "out": 0.75
+    },
+    "meituan/longcat-2.0": {
+      "in": 0.3,
+      "cached": 0.006,
+      "cache_write": 0.3,
+      "out": 1.2
     },
     "mercury-2": {
       "in": 0.25,
@@ -22318,6 +23398,18 @@
       "cache_write": 0.0,
       "out": 0.0
     },
+    "meta/muse-glimmer-30b": {
+      "in": 0.3,
+      "cached": 0.04,
+      "cache_write": 0.3,
+      "out": 1.1
+    },
+    "meta/muse-glimmer-30b:batch": {
+      "in": 0.175,
+      "cached": 0.02,
+      "cache_write": 0.175,
+      "out": 0.75
+    },
     "meta/muse-spark-1.1": {
       "in": 1.25,
       "cached": 0.15,
@@ -22504,6 +23596,12 @@
       "cache_write": 0.3,
       "out": 1.2
     },
+    "minimax-m3:batch": {
+      "in": 0.3,
+      "cached": 0.06,
+      "cache_write": 0.3,
+      "out": 1.2
+    },
     "minimax-m3:free": {
       "in": 0.0,
       "cached": 0.0,
@@ -22630,6 +23728,12 @@
       "cache_write": 0.3,
       "out": 1.2
     },
+    "minimax/minimax-m3:batch": {
+      "in": 0.3,
+      "cached": 0.06,
+      "cache_write": 0.3,
+      "out": 1.2
+    },
     "minimax/minimax-m3:free": {
       "in": 0.0,
       "cached": 0.0,
@@ -22726,6 +23830,12 @@
       "cache_write": 0.15,
       "out": 0.15
     },
+    "ministral-8b-2512:batch": {
+      "in": 0.075,
+      "cached": 0.0075,
+      "cache_write": 0.075,
+      "out": 0.075
+    },
     "ministral-8b-latest": {
       "in": 0.15,
       "cached": 0.015,
@@ -22818,7 +23928,7 @@
     },
     "mistral-code-agent-latest": {
       "in": 0.39999999999999997,
-      "cached": 0.19999999999999998,
+      "cached": 0.04,
       "cache_write": 0.39999999999999997,
       "out": 2.0
     },
@@ -22875,6 +23985,12 @@
       "cached": 0.049999999999999996,
       "cache_write": 0.5,
       "out": 1.5
+    },
+    "mistral-large-2512:batch": {
+      "in": 0.25,
+      "cached": 0.024999999999999998,
+      "cache_write": 0.25,
+      "out": 0.75
     },
     "mistral-large-3": {
       "in": 0.5,
@@ -22956,7 +24072,7 @@
     },
     "mistral-medium-3": {
       "in": 1.5,
-      "cached": 0.75,
+      "cached": 0.15,
       "cache_write": 1.5,
       "out": 7.5
     },
@@ -22972,11 +24088,23 @@
       "cache_write": 1.5,
       "out": 7.5
     },
+    "mistral-medium-3-5:batch": {
+      "in": 0.75,
+      "cached": 0.375,
+      "cache_write": 0.75,
+      "out": 3.75
+    },
     "mistral-medium-3.1": {
       "in": 0.39999999999999997,
       "cached": 0.04,
       "cache_write": 0.39999999999999997,
       "out": 2.0
+    },
+    "mistral-medium-3.1:batch": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.19999999999999998,
+      "out": 1.0
     },
     "mistral-medium-3.5": {
       "in": 1.5,
@@ -23080,6 +24208,12 @@
       "cache_write": 0.15,
       "out": 0.6
     },
+    "mistral-small-2603:batch": {
+      "in": 0.075,
+      "cached": 0.0075,
+      "cache_write": 0.075,
+      "out": 0.3
+    },
     "mistral-small-3-1-24b-instruct-2503": {
       "in": 0.106,
       "cached": 0.053,
@@ -23118,7 +24252,7 @@
     },
     "mistral-tiny": {
       "in": 0.25,
-      "cached": 0.125,
+      "cached": 0.024999999999999998,
       "cache_write": 0.25,
       "out": 0.25
     },
@@ -23256,7 +24390,7 @@
     },
     "mistral/codestral-mamba-latest": {
       "in": 0.25,
-      "cached": 0.125,
+      "cached": 0.024999999999999998,
       "cache_write": 0.25,
       "out": 0.25
     },
@@ -23268,7 +24402,7 @@
     },
     "mistral/devstral-latest": {
       "in": 0.39999999999999997,
-      "cached": 0.19999999999999998,
+      "cached": 0.04,
       "cache_write": 0.39999999999999997,
       "out": 2.0
     },
@@ -23280,7 +24414,7 @@
     },
     "mistral/devstral-medium-latest": {
       "in": 0.39999999999999997,
-      "cached": 0.19999999999999998,
+      "cached": 0.04,
       "cache_write": 0.39999999999999997,
       "out": 2.0
     },
@@ -23304,7 +24438,7 @@
     },
     "mistral/devstral-small-latest": {
       "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
+      "cached": 0.01,
       "cache_write": 0.09999999999999999,
       "out": 0.3
     },
@@ -23454,7 +24588,7 @@
     },
     "mistral/mistral-code-agent-latest": {
       "in": 0.39999999999999997,
-      "cached": 0.19999999999999998,
+      "cached": 0.04,
       "cache_write": 0.39999999999999997,
       "out": 2.0
     },
@@ -23556,7 +24690,7 @@
     },
     "mistral/mistral-medium-3": {
       "in": 1.5,
-      "cached": 0.75,
+      "cached": 0.15,
       "cache_write": 1.5,
       "out": 7.5
     },
@@ -23598,7 +24732,7 @@
     },
     "mistral/mistral-small": {
       "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
+      "cached": 0.01,
       "cache_write": 0.09999999999999999,
       "out": 0.3
     },
@@ -23622,7 +24756,7 @@
     },
     "mistral/mistral-tiny": {
       "in": 0.25,
-      "cached": 0.125,
+      "cached": 0.024999999999999998,
       "cache_write": 0.25,
       "out": 0.25
     },
@@ -23664,7 +24798,7 @@
     },
     "mistral/open-mistral-nemo": {
       "in": 0.3,
-      "cached": 0.15,
+      "cached": 0.03,
       "cache_write": 0.3,
       "out": 0.3
     },
@@ -23712,19 +24846,19 @@
     },
     "mistral/pixtral-large-latest": {
       "in": 2.0,
-      "cached": 1.0,
+      "cached": 0.19999999999999998,
       "cache_write": 2.0,
       "out": 6.0
     },
     "mistral/voxtral-small-2507": {
       "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
+      "cached": 0.01,
       "cache_write": 0.09999999999999999,
       "out": 0.39999999999999997
     },
     "mistral/voxtral-small-latest": {
       "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
+      "cached": 0.01,
       "cache_write": 0.09999999999999999,
       "out": 0.39999999999999997
     },
@@ -23812,6 +24946,12 @@
       "cache_write": 0.3,
       "out": 0.8999999999999999
     },
+    "mistralai/codestral-2508:batch": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.44999999999999996
+    },
     "mistralai/codestral-2@001": {
       "in": 0.3,
       "cached": 0.15,
@@ -23826,27 +24966,33 @@
     },
     "mistralai/devstral-2512": {
       "in": 0.39999999999999997,
-      "cached": 0.19999999999999998,
+      "cached": 0.04,
       "cache_write": 0.39999999999999997,
       "out": 2.0
     },
     "mistralai/ministral-14b-2512": {
       "in": 0.19999999999999998,
-      "cached": 0.09999999999999999,
+      "cached": 0.02,
       "cache_write": 0.19999999999999998,
       "out": 0.19999999999999998
     },
     "mistralai/ministral-3b-2512": {
       "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
+      "cached": 0.01,
       "cache_write": 0.09999999999999999,
       "out": 0.09999999999999999
     },
     "mistralai/ministral-8b-2512": {
       "in": 0.15,
-      "cached": 0.075,
+      "cached": 0.015,
       "cache_write": 0.15,
       "out": 0.15
+    },
+    "mistralai/ministral-8b-2512:batch": {
+      "in": 0.075,
+      "cached": 0.0075,
+      "cache_write": 0.075,
+      "out": 0.075
     },
     "mistralai/mistral-7b-instruct": {
       "in": 0.13,
@@ -23868,7 +25014,7 @@
     },
     "mistralai/mistral-large": {
       "in": 2.0,
-      "cached": 1.0,
+      "cached": 0.19999999999999998,
       "cache_write": 2.0,
       "out": 6.0
     },
@@ -23879,10 +25025,16 @@
       "out": 6.0
     },
     "mistralai/mistral-large-2512": {
-      "in": 0.5,
-      "cached": 0.25,
-      "cache_write": 0.5,
-      "out": 1.5
+      "in": 0.55,
+      "cached": 0.055,
+      "cache_write": 0.55,
+      "out": 1.6500000000000001
+    },
+    "mistralai/mistral-large-2512:batch": {
+      "in": 0.25,
+      "cached": 0.024999999999999998,
+      "cache_write": 0.25,
+      "out": 0.75
     },
     "mistralai/mistral-medium-2505": {
       "in": 3.0,
@@ -23902,11 +25054,23 @@
       "cache_write": 1.5,
       "out": 7.5
     },
+    "mistralai/mistral-medium-3-5:batch": {
+      "in": 0.75,
+      "cached": 0.375,
+      "cache_write": 0.75,
+      "out": 3.75
+    },
     "mistralai/mistral-medium-3.1": {
       "in": 0.39999999999999997,
       "cached": 0.04,
       "cache_write": 0.39999999999999997,
       "out": 2.0
+    },
+    "mistralai/mistral-medium-3.1:batch": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.19999999999999998,
+      "out": 1.0
     },
     "mistralai/mistral-medium-3.5-128b": {
       "in": 1.5,
@@ -23950,6 +25114,12 @@
       "cache_write": 0.15,
       "out": 0.6
     },
+    "mistralai/mistral-small-2603:batch": {
+      "in": 0.075,
+      "cached": 0.0075,
+      "cache_write": 0.075,
+      "out": 0.3
+    },
     "mistralai/mistral-small-3-1-24b-instruct-2503": {
       "in": 0.106,
       "cached": 0.053,
@@ -23976,7 +25146,7 @@
     },
     "mistralai/mixtral-8x22b-instruct": {
       "in": 2.0,
-      "cached": 1.0,
+      "cached": 0.19999999999999998,
       "cache_write": 2.0,
       "out": 6.0
     },
@@ -24018,7 +25188,7 @@
     },
     "mixtral-8x22b-instruct": {
       "in": 2.0,
-      "cached": 1.0,
+      "cached": 0.19999999999999998,
       "cache_write": 2.0,
       "out": 6.0
     },
@@ -24406,6 +25576,12 @@
       "cache_write": 3.0,
       "out": 15.0
     },
+    "moonshotai/kimi-k3:batch": {
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.0,
+      "out": 15.0
+    },
     "morph-v3-fast": {
       "in": 0.7999999999999999,
       "cached": 0.39999999999999997,
@@ -24465,6 +25641,12 @@
       "cached": 0.04,
       "cache_write": 0.35,
       "out": 1.5
+    },
+    "muse-glimmer-30b:batch": {
+      "in": 0.175,
+      "cached": 0.02,
+      "cache_write": 0.175,
+      "out": 0.75
     },
     "muse-spark-1.1": {
       "in": 1.25,
@@ -24952,6 +26134,30 @@
       "cache_write": 0.09999999999999999,
       "out": 0.09999999999999999
     },
+    "nex-agi/nex-n2.5-mini:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "nex-agi/nex-n2.5-pro:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "nex-n2.5-mini:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "nex-n2.5-pro:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
     "nomic-ai/nomic-embed-text-v1": {
       "in": 0.008,
       "cached": 0.004,
@@ -24980,6 +26186,12 @@
       "in": 0.008,
       "cached": 0.004,
       "cache_write": 0.008,
+      "out": 0.0
+    },
+    "north-mini-code:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
       "out": 0.0
     },
     "nous-capybara-7b-v1p9": {
@@ -25023,6 +26235,30 @@
       "cached": 0.07,
       "cache_write": 0.14,
       "out": 0.14
+    },
+    "nousresearch/hermes-3-llama-3.1-405b": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 1.0
+    },
+    "nousresearch/hermes-3-llama-3.1-70b": {
+      "in": 0.7,
+      "cached": 0.35,
+      "cache_write": 0.7,
+      "out": 0.7
+    },
+    "nousresearch/hermes-4-405b": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 3.0
+    },
+    "nova-2-lite-v1": {
+      "in": 0.3,
+      "cached": 0.15,
+      "cache_write": 0.3,
+      "out": 2.5
     },
     "nova-lite": {
       "in": 0.06,
@@ -26057,10 +27293,10 @@
       "out": 0.39999999999999997
     },
     "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": {
-      "in": 0.75,
-      "cached": 0.15,
-      "cache_write": 0.75,
-      "out": 2.75
+      "in": 0.5,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.5,
+      "out": 2.1500000000000004
     },
     "nvidia/NVIDIA-Nemotron-3.5-Lightning": {
       "in": 0.08,
@@ -26069,10 +27305,10 @@
       "out": 0.19999999999999998
     },
     "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B": {
-      "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
-      "cache_write": 0.09999999999999999,
-      "out": 0.25
+      "in": 0.07,
+      "cached": 0.04,
+      "cache_write": 0.07,
+      "out": 0.19999999999999998
     },
     "nvidia/NVIDIA-Nemotron-Nano-9B-v2": {
       "in": 0.04,
@@ -26296,6 +27532,12 @@
       "cache_write": 1.1,
       "out": 4.4
     },
+    "o3-mini:batch": {
+      "in": 0.55,
+      "cached": 0.275,
+      "cache_write": 0.55,
+      "out": 2.2
+    },
     "o3-pro": {
       "in": 20.0,
       "cached": 10.0,
@@ -26307,6 +27549,12 @@
       "cached": 10.0,
       "cache_write": 20.0,
       "out": 80.0
+    },
+    "o3:batch": {
+      "in": 1.0,
+      "cached": 0.25,
+      "cache_write": 1.0,
+      "out": 4.0
     },
     "o4-mini": {
       "in": 1.1,
@@ -26337,6 +27585,12 @@
       "cached": 0.275,
       "cache_write": 1.1,
       "out": 4.4
+    },
+    "o4-mini:batch": {
+      "in": 0.55,
+      "cached": 0.1375,
+      "cache_write": 0.55,
+      "out": 2.2
     },
     "oci/cohere.command-a-03-2025": {
       "in": 1.56,
@@ -26808,7 +28062,7 @@
     },
     "open-mistral-nemo": {
       "in": 0.3,
-      "cached": 0.15,
+      "cached": 0.03,
       "cache_write": 0.3,
       "out": 0.3
     },
@@ -26974,6 +28228,12 @@
       "cache_write": 0.5,
       "out": 1.5
     },
+    "openai/gpt-3.5-turbo-0613": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 2.0
+    },
     "openai/gpt-3.5-turbo-16k": {
       "in": 3.0,
       "cached": 1.5,
@@ -26985,6 +28245,12 @@
       "cached": 0.75,
       "cache_write": 1.5,
       "out": 2.0
+    },
+    "openai/gpt-3.5-turbo:batch": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 0.75
     },
     "openai/gpt-4": {
       "in": 30.0,
@@ -27004,6 +28270,12 @@
       "cache_write": 10.0,
       "out": 30.0
     },
+    "openai/gpt-4-turbo:batch": {
+      "in": 5.0,
+      "cached": 2.5,
+      "cache_write": 5.0,
+      "out": 15.0
+    },
     "openai/gpt-4.1": {
       "in": 2.0,
       "cached": 0.5,
@@ -27016,11 +28288,29 @@
       "cache_write": 0.39999999999999997,
       "out": 1.5999999999999999
     },
+    "openai/gpt-4.1-mini:batch": {
+      "in": 0.19999999999999998,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.19999999999999998,
+      "out": 0.7999999999999999
+    },
     "openai/gpt-4.1-nano": {
       "in": 0.09999999999999999,
       "cached": 0.024999999999999998,
       "cache_write": 0.09999999999999999,
       "out": 0.39999999999999997
+    },
+    "openai/gpt-4.1-nano:batch": {
+      "in": 0.049999999999999996,
+      "cached": 0.012499999999999999,
+      "cache_write": 0.049999999999999996,
+      "out": 0.19999999999999998
+    },
+    "openai/gpt-4.1:batch": {
+      "in": 1.0,
+      "cached": 0.25,
+      "cache_write": 1.0,
+      "out": 4.0
     },
     "openai/gpt-4o": {
       "in": 2.5,
@@ -27058,6 +28348,18 @@
       "cache_write": 0.15,
       "out": 0.6
     },
+    "openai/gpt-4o-mini:batch": {
+      "in": 0.075,
+      "cached": 0.0375,
+      "cache_write": 0.075,
+      "out": 0.3
+    },
+    "openai/gpt-4o:batch": {
+      "in": 1.25,
+      "cached": 0.625,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
     "openai/gpt-5": {
       "in": 1.25,
       "cached": 0.625,
@@ -27076,11 +28378,29 @@
       "cache_write": 1.25,
       "out": 10.0
     },
+    "openai/gpt-5-image": {
+      "in": 10.0,
+      "cached": 1.25,
+      "cache_write": 10.0,
+      "out": 10.0
+    },
+    "openai/gpt-5-image-mini": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 2.0
+    },
     "openai/gpt-5-mini": {
       "in": 0.25,
       "cached": 0.024999999999999998,
       "cache_write": 0.25,
       "out": 2.0
+    },
+    "openai/gpt-5-mini:batch": {
+      "in": 0.125,
+      "cached": 0.012499999999999999,
+      "cache_write": 0.125,
+      "out": 1.0
     },
     "openai/gpt-5-nano": {
       "in": 0.049999999999999996,
@@ -27088,11 +28408,23 @@
       "cache_write": 0.049999999999999996,
       "out": 0.39999999999999997
     },
+    "openai/gpt-5-nano:batch": {
+      "in": 0.024999999999999998,
+      "cached": 0.0025,
+      "cache_write": 0.024999999999999998,
+      "out": 0.19999999999999998
+    },
     "openai/gpt-5-pro": {
       "in": 15.0,
       "cached": 7.5,
       "cache_write": 15.0,
       "out": 120.0
+    },
+    "openai/gpt-5-pro:batch": {
+      "in": 7.5,
+      "cached": 3.75,
+      "cache_write": 7.5,
+      "out": 60.0
     },
     "openai/gpt-5.1": {
       "in": 1.25,
@@ -27118,6 +28450,12 @@
       "cache_write": 0.25,
       "out": 2.0
     },
+    "openai/gpt-5.1:batch": {
+      "in": 0.625,
+      "cached": 0.0625,
+      "cache_write": 0.625,
+      "out": 5.0
+    },
     "openai/gpt-5.2": {
       "in": 1.75,
       "cached": 0.875,
@@ -27142,6 +28480,18 @@
       "cache_write": 21.0,
       "out": 168.0
     },
+    "openai/gpt-5.2-pro:batch": {
+      "in": 10.5,
+      "cached": 5.25,
+      "cache_write": 10.5,
+      "out": 84.0
+    },
+    "openai/gpt-5.2:batch": {
+      "in": 0.875,
+      "cached": 0.0875,
+      "cache_write": 0.875,
+      "out": 7.0
+    },
     "openai/gpt-5.3-codex": {
       "in": 1.75,
       "cached": 0.175,
@@ -27154,11 +28504,23 @@
       "cache_write": 2.5,
       "out": 15.0
     },
+    "openai/gpt-5.4-image-2": {
+      "in": 8.0,
+      "cached": 2.0,
+      "cache_write": 8.0,
+      "out": 15.0
+    },
     "openai/gpt-5.4-mini": {
       "in": 0.75,
       "cached": 0.075,
       "cache_write": 0.75,
       "out": 4.5
+    },
+    "openai/gpt-5.4-mini:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.375,
+      "out": 2.25
     },
     "openai/gpt-5.4-nano": {
       "in": 0.19999999999999998,
@@ -27166,11 +28528,29 @@
       "cache_write": 0.19999999999999998,
       "out": 1.25
     },
+    "openai/gpt-5.4-nano:batch": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.09999999999999999,
+      "out": 0.625
+    },
     "openai/gpt-5.4-pro": {
       "in": 30.0,
       "cached": 15.0,
       "cache_write": 30.0,
       "out": 180.0
+    },
+    "openai/gpt-5.4-pro:batch": {
+      "in": 15.0,
+      "cached": 7.5,
+      "cache_write": 15.0,
+      "out": 90.0
+    },
+    "openai/gpt-5.4:batch": {
+      "in": 1.25,
+      "cached": 0.125,
+      "cache_write": 1.25,
+      "out": 7.5
     },
     "openai/gpt-5.5": {
       "in": 5.0,
@@ -27184,6 +28564,18 @@
       "cache_write": 30.0,
       "out": 180.0
     },
+    "openai/gpt-5.5-pro:batch": {
+      "in": 15.0,
+      "cached": 7.5,
+      "cache_write": 15.0,
+      "out": 90.0
+    },
+    "openai/gpt-5.5:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 15.0
+    },
     "openai/gpt-5.6-luna": {
       "in": 0.19999999999999998,
       "cached": 0.02,
@@ -27195,6 +28587,18 @@
       "cached": 0.02,
       "cache_write": 0.25,
       "out": 1.2
+    },
+    "openai/gpt-5.6-luna-pro:batch": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.09999999999999999,
+      "out": 0.6
+    },
+    "openai/gpt-5.6-luna:batch": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.09999999999999999,
+      "out": 0.6
     },
     "openai/gpt-5.6-sol": {
       "in": 2.0,
@@ -27208,6 +28612,18 @@
       "cache_write": 2.5,
       "out": 10.0
     },
+    "openai/gpt-5.6-sol-pro:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
+    "openai/gpt-5.6-sol:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
     "openai/gpt-5.6-terra": {
       "in": 2.0,
       "cached": 0.19999999999999998,
@@ -27220,6 +28636,24 @@
       "cache_write": 2.5,
       "out": 12.0
     },
+    "openai/gpt-5.6-terra-pro:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.0,
+      "out": 6.0
+    },
+    "openai/gpt-5.6-terra:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.0,
+      "out": 6.0
+    },
+    "openai/gpt-5:batch": {
+      "in": 0.625,
+      "cached": 0.0625,
+      "cache_write": 0.625,
+      "out": 5.0
+    },
     "openai/gpt-6-astra": {
       "in": 10.0,
       "cached": 1.0,
@@ -27231,6 +28665,18 @@
       "cached": 1.0,
       "cache_write": 12.5,
       "out": 50.0
+    },
+    "openai/gpt-6-astra-pro:batch": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "openai/gpt-6-astra:batch": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
     },
     "openai/gpt-audio": {
       "in": 2.5,
@@ -27273,6 +28719,12 @@
       "cached": 0.045,
       "cache_write": 0.09,
       "out": 0.36
+    },
+    "openai/gpt-oss-120b:batch": {
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 0.6
     },
     "openai/gpt-oss-20b": {
       "in": 0.03,
@@ -27328,11 +28780,23 @@
       "cache_write": 1.1,
       "out": 4.4
     },
+    "openai/o3-mini:batch": {
+      "in": 0.55,
+      "cached": 0.275,
+      "cache_write": 0.55,
+      "out": 2.2
+    },
     "openai/o3-pro": {
       "in": 20.0,
       "cached": 10.0,
       "cache_write": 20.0,
       "out": 80.0
+    },
+    "openai/o3:batch": {
+      "in": 1.0,
+      "cached": 0.25,
+      "cache_write": 1.0,
+      "out": 4.0
     },
     "openai/o4-mini": {
       "in": 1.0,
@@ -27345,6 +28809,12 @@
       "cached": 0.275,
       "cache_write": 1.1,
       "out": 4.4
+    },
+    "openai/o4-mini:batch": {
+      "in": 0.55,
+      "cached": 0.1375,
+      "cache_write": 0.55,
+      "out": 2.2
     },
     "openai/text-embedding-3-large": {
       "in": 0.13,
@@ -27400,10 +28870,70 @@
       "cache_write": 0.19999999999999998,
       "out": 0.19999999999999998
     },
+    "openrouter/aion-labs/aion-2.0": {
+      "in": 0.7999999999999999,
+      "cached": 0.19999999999999998,
+      "cache_write": 0.7999999999999999,
+      "out": 1.5999999999999999
+    },
+    "openrouter/aion-labs/aion-3.0": {
+      "in": 3.0,
+      "cached": 0.75,
+      "cache_write": 3.0,
+      "out": 6.0
+    },
+    "openrouter/aion-labs/aion-3.0-mini": {
+      "in": 0.7,
+      "cached": 0.18,
+      "cache_write": 0.7,
+      "out": 1.4
+    },
+    "openrouter/aion-labs/aion-rp-llama-3.1-8b": {
+      "in": 0.7999999999999999,
+      "cached": 0.39999999999999997,
+      "cache_write": 0.7999999999999999,
+      "out": 1.5999999999999999
+    },
+    "openrouter/amazon/nova-2-lite-v1": {
+      "in": 0.3,
+      "cached": 0.15,
+      "cache_write": 0.3,
+      "out": 2.5
+    },
+    "openrouter/amazon/nova-lite-v1": {
+      "in": 0.06,
+      "cached": 0.03,
+      "cache_write": 0.06,
+      "out": 0.24
+    },
+    "openrouter/amazon/nova-micro-v1": {
+      "in": 0.035,
+      "cached": 0.0175,
+      "cache_write": 0.035,
+      "out": 0.14
+    },
+    "openrouter/amazon/nova-premier-v1": {
+      "in": 2.5,
+      "cached": 0.625,
+      "cache_write": 2.5,
+      "out": 12.5
+    },
+    "openrouter/amazon/nova-pro-v1": {
+      "in": 0.7999999999999999,
+      "cached": 0.39999999999999997,
+      "cache_write": 0.7999999999999999,
+      "out": 3.1999999999999997
+    },
+    "openrouter/anthracite-org/magnum-v4-72b": {
+      "in": 2.5,
+      "cached": 1.25,
+      "cache_write": 2.5,
+      "out": 5.0
+    },
     "openrouter/anthropic/claude-3-haiku": {
       "in": 0.25,
-      "cached": 0.125,
-      "cache_write": 0.25,
+      "cached": 0.03,
+      "cache_write": 0.3,
       "out": 1.25
     },
     "openrouter/anthropic/claude-3.5-sonnet": {
@@ -27430,11 +28960,29 @@
       "cache_write": 12.5,
       "out": 50.0
     },
+    "openrouter/anthropic/claude-fable-5.1:batch": {
+      "in": 5.0,
+      "cached": 0.125,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "openrouter/anthropic/claude-fable-5:batch": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
     "openrouter/anthropic/claude-haiku-4.5": {
       "in": 1.0,
       "cached": 0.09999999999999999,
       "cache_write": 1.25,
       "out": 5.0
+    },
+    "openrouter/anthropic/claude-haiku-4.5:batch": {
+      "in": 0.5,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.625,
+      "out": 2.5
     },
     "openrouter/anthropic/claude-opus-4": {
       "in": 15.0,
@@ -27448,11 +28996,23 @@
       "cache_write": 18.75,
       "out": 75.0
     },
+    "openrouter/anthropic/claude-opus-4.1:batch": {
+      "in": 7.5,
+      "cached": 0.75,
+      "cache_write": 9.375,
+      "out": 37.5
+    },
     "openrouter/anthropic/claude-opus-4.5": {
       "in": 5.0,
       "cached": 0.5,
       "cache_write": 6.25,
       "out": 25.0
+    },
+    "openrouter/anthropic/claude-opus-4.5:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
     },
     "openrouter/anthropic/claude-opus-4.6": {
       "in": 5.0,
@@ -27460,11 +29020,23 @@
       "cache_write": 6.25,
       "out": 25.0
     },
+    "openrouter/anthropic/claude-opus-4.6:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
+    },
     "openrouter/anthropic/claude-opus-4.7": {
       "in": 5.0,
       "cached": 0.5,
       "cache_write": 6.25,
       "out": 25.0
+    },
+    "openrouter/anthropic/claude-opus-4.7:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
     },
     "openrouter/anthropic/claude-opus-4.8": {
       "in": 5.0,
@@ -27472,11 +29044,23 @@
       "cache_write": 6.25,
       "out": 25.0
     },
+    "openrouter/anthropic/claude-opus-4.8:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
+    },
     "openrouter/anthropic/claude-opus-5": {
       "in": 5.0,
       "cached": 0.5,
       "cache_write": 6.25,
       "out": 25.0
+    },
+    "openrouter/anthropic/claude-opus-5:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 3.125,
+      "out": 12.5
     },
     "openrouter/anthropic/claude-sonnet-4": {
       "in": 3.0,
@@ -27490,11 +29074,23 @@
       "cache_write": 3.75,
       "out": 15.0
     },
+    "openrouter/anthropic/claude-sonnet-4.5:batch": {
+      "in": 1.5,
+      "cached": 0.15,
+      "cache_write": 1.875,
+      "out": 7.5
+    },
     "openrouter/anthropic/claude-sonnet-4.6": {
       "in": 3.0,
       "cached": 0.3,
       "cache_write": 3.75,
       "out": 15.0
+    },
+    "openrouter/anthropic/claude-sonnet-4.6:batch": {
+      "in": 1.5,
+      "cached": 0.15,
+      "cache_write": 1.875,
+      "out": 7.5
     },
     "openrouter/anthropic/claude-sonnet-5": {
       "in": 2.0,
@@ -27502,11 +29098,29 @@
       "cache_write": 2.5,
       "out": 10.0
     },
+    "openrouter/anthropic/claude-sonnet-5:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
+    "openrouter/arcee-ai/trinity-large-thinking": {
+      "in": 0.25,
+      "cached": 0.06,
+      "cache_write": 0.25,
+      "out": 0.7999999999999999
+    },
     "openrouter/auto": {
       "in": 0.0,
       "cached": 0.0,
       "cache_write": 0.0,
       "out": 0.0
+    },
+    "openrouter/baidu/ernie-4.5-vl-424b-a47b": {
+      "in": 0.42,
+      "cached": 0.21,
+      "cache_write": 0.42,
+      "out": 1.25
     },
     "openrouter/bodybuilder": {
       "in": 0.0,
@@ -27514,17 +29128,89 @@
       "cache_write": 0.0,
       "out": 0.0
     },
-    "openrouter/bytedance/ui-tars-1.5-7b": {
+    "openrouter/bytedance-seed/seed-1.6": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 2.0
+    },
+    "openrouter/bytedance-seed/seed-1.6-flash": {
+      "in": 0.075,
+      "cached": 0.0375,
+      "cache_write": 0.075,
+      "out": 0.3
+    },
+    "openrouter/bytedance-seed/seed-2-1-turbo": {
+      "in": 0.5,
+      "cached": 0.25,
+      "cache_write": 0.5,
+      "out": 2.5
+    },
+    "openrouter/bytedance-seed/seed-2.0-code": {
+      "in": 0.5,
+      "cached": 0.25,
+      "cache_write": 0.5,
+      "out": 3.0
+    },
+    "openrouter/bytedance-seed/seed-2.0-lite": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 2.0
+    },
+    "openrouter/bytedance-seed/seed-2.0-mini": {
       "in": 0.09999999999999999,
       "cached": 0.049999999999999996,
       "cache_write": 0.09999999999999999,
+      "out": 0.39999999999999997
+    },
+    "openrouter/bytedance/ui-tars-1.5-7b": {
+      "in": 0.09999999999999999,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.09999999999999999,
       "out": 0.19999999999999998
     },
+    "openrouter/cognitivecomputations/dolphin-mistral-24b-venice-edition": {
+      "in": 0.19999999999999998,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.19999999999999998,
+      "out": 0.8999999999999999
+    },
+    "openrouter/cohere/command-a": {
+      "in": 2.5,
+      "cached": 1.25,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "openrouter/cohere/command-r-08-2024": {
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
+    "openrouter/cohere/command-r-plus-08-2024": {
+      "in": 2.5,
+      "cached": 1.25,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "openrouter/cohere/command-r7b-12-2024": {
+      "in": 0.0375,
+      "cached": 0.01875,
+      "cache_write": 0.0375,
+      "out": 0.15
+    },
+    "openrouter/cohere/north-mini-code:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
     "openrouter/deepseek/deepseek-chat": {
-      "in": 0.2574,
-      "cached": 0.1287,
-      "cache_write": 0.2574,
-      "out": 1.0287
+      "in": 0.32,
+      "cached": 0.16,
+      "cache_write": 0.32,
+      "out": 0.8899999999999999
     },
     "openrouter/deepseek/deepseek-chat-v3-0324": {
       "in": 0.25,
@@ -27546,7 +29232,7 @@
     },
     "openrouter/deepseek/deepseek-r1-0528": {
       "in": 0.5,
-      "cached": 0.25,
+      "cached": 0.35,
       "cache_write": 0.5,
       "out": 2.1500000000000004
     },
@@ -27575,10 +29261,10 @@
       "out": 0.41
     },
     "openrouter/deepseek/deepseek-v4-flash": {
-      "in": 0.0854,
-      "cached": 0.01708,
-      "cache_write": 0.0854,
-      "out": 0.1708
+      "in": 0.088606,
+      "cached": 0.017721200000000003,
+      "cache_write": 0.088606,
+      "out": 0.177212
     },
     "openrouter/deepseek/deepseek-v4-flash-0731": {
       "in": 0.06,
@@ -27586,29 +29272,59 @@
       "cache_write": 0.06,
       "out": 0.12
     },
+    "openrouter/deepseek/deepseek-v4-flash-0731:batch": {
+      "in": 0.11,
+      "cached": 0.0035,
+      "cache_write": 0.11,
+      "out": 0.33
+    },
+    "openrouter/deepseek/deepseek-v4-flash-0731:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
     "openrouter/deepseek/deepseek-v4-flash-vision-exp": {
-      "in": 0.22,
-      "cached": 0.007,
-      "cache_write": 0.22,
-      "out": 0.66
+      "in": 0.21559999999999999,
+      "cached": 0.00686,
+      "cache_write": 0.21559999999999999,
+      "out": 0.6468
+    },
+    "openrouter/deepseek/deepseek-v4-flash-vision-exp:batch": {
+      "in": 0.11,
+      "cached": 0.0035,
+      "cache_write": 0.11,
+      "out": 0.33
     },
     "openrouter/deepseek/deepseek-v4-pro": {
-      "in": 1.5999999999999999,
-      "cached": 0.135,
-      "cache_write": 1.5999999999999999,
-      "out": 3.1999999999999997
+      "in": 0.94336,
+      "cached": 0.079596,
+      "cache_write": 0.94336,
+      "out": 1.88672
     },
     "openrouter/deepseek/deepseek-v4-pro-0813": {
-      "in": 0.57948,
-      "cached": 0.019316,
-      "cache_write": 0.57948,
-      "out": 1.73844
+      "in": 0.66,
+      "cached": 0.022,
+      "cache_write": 0.66,
+      "out": 1.9800000000000002
+    },
+    "openrouter/deepseek/deepseek-v4-pro-0813:batch": {
+      "in": 0.66,
+      "cached": 0.022,
+      "cache_write": 0.66,
+      "out": 1.9800000000000002
     },
     "openrouter/deepseek/deepseek-v4.1-flash": {
       "in": 0.15,
       "cached": 0.003,
       "cache_write": 0.15,
       "out": 0.6
+    },
+    "openrouter/dots-studio/dots-3-note-preview:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
     },
     "openrouter/free": {
       "in": 0.0,
@@ -27625,7 +29341,7 @@
     "openrouter/google/gemini-2.5-flash": {
       "in": 0.3,
       "cached": 0.03,
-      "cache_write": 0.3,
+      "cache_write": 0.0833333333333333,
       "out": 2.5
     },
     "openrouter/google/gemini-2.5-flash-image": {
@@ -27637,13 +29353,25 @@
     "openrouter/google/gemini-2.5-flash-lite": {
       "in": 0.09999999999999999,
       "cached": 0.01,
-      "cache_write": 0.09999999999999999,
+      "cache_write": 0.0833333333333333,
       "out": 0.39999999999999997
+    },
+    "openrouter/google/gemini-2.5-flash-lite:batch": {
+      "in": 0.049999999999999996,
+      "cached": 0.01,
+      "cache_write": 0.049999999999999996,
+      "out": 0.19999999999999998
+    },
+    "openrouter/google/gemini-2.5-flash:batch": {
+      "in": 0.15,
+      "cached": 0.03,
+      "cache_write": 0.15,
+      "out": 1.25
     },
     "openrouter/google/gemini-2.5-pro": {
       "in": 1.25,
       "cached": 0.125,
-      "cache_write": 1.25,
+      "cache_write": 0.375,
       "out": 10.0
     },
     "openrouter/google/gemini-2.5-pro-preview": {
@@ -27658,11 +29386,23 @@
       "cache_write": 0.375,
       "out": 10.0
     },
+    "openrouter/google/gemini-2.5-pro:batch": {
+      "in": 0.625,
+      "cached": 0.125,
+      "cache_write": 0.625,
+      "out": 5.0
+    },
     "openrouter/google/gemini-3-flash-preview": {
       "in": 0.5,
       "cached": 0.049999999999999996,
-      "cache_write": 0.5,
+      "cache_write": 0.0833333333333333,
       "out": 3.0
+    },
+    "openrouter/google/gemini-3-flash-preview:batch": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 1.5
     },
     "openrouter/google/gemini-3-pro-image": {
       "in": 2.0,
@@ -27697,7 +29437,7 @@
     "openrouter/google/gemini-3.1-flash-lite": {
       "in": 0.25,
       "cached": 0.024999999999999998,
-      "cache_write": 0.25,
+      "cache_write": 0.0833333333333333,
       "out": 1.5
     },
     "openrouter/google/gemini-3.1-flash-lite-image": {
@@ -27709,13 +29449,19 @@
     "openrouter/google/gemini-3.1-flash-lite-preview": {
       "in": 0.25,
       "cached": 0.024999999999999998,
-      "cache_write": 0.25,
+      "cache_write": 0.0833333333333333,
       "out": 1.5
+    },
+    "openrouter/google/gemini-3.1-flash-lite:batch": {
+      "in": 0.125,
+      "cached": 0.012499999999999999,
+      "cache_write": 0.125,
+      "out": 0.75
     },
     "openrouter/google/gemini-3.1-pro-preview": {
       "in": 2.0,
       "cached": 0.19999999999999998,
-      "cache_write": 2.0,
+      "cache_write": 0.375,
       "out": 12.0
     },
     "openrouter/google/gemini-3.1-pro-preview-customtools": {
@@ -27724,35 +29470,71 @@
       "cache_write": 0.375,
       "out": 12.0
     },
+    "openrouter/google/gemini-3.1-pro-preview:batch": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 6.0
+    },
     "openrouter/google/gemini-3.5-flash": {
       "in": 1.5,
       "cached": 0.15,
-      "cache_write": 1.5,
+      "cache_write": 0.0833333333333333,
       "out": 9.0
     },
     "openrouter/google/gemini-3.5-flash-lite": {
       "in": 0.3,
       "cached": 0.03,
-      "cache_write": 0.3,
+      "cache_write": 0.0833333333333333,
       "out": 2.5
+    },
+    "openrouter/google/gemini-3.5-flash-lite:batch": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 1.25
+    },
+    "openrouter/google/gemini-3.5-flash:batch": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.75,
+      "out": 4.5
     },
     "openrouter/google/gemini-3.6-flash": {
       "in": 0.75,
       "cached": 0.075,
-      "cache_write": 0.75,
+      "cache_write": 0.0416666666666667,
       "out": 3.75
+    },
+    "openrouter/google/gemini-3.6-flash:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.0416666666666667,
+      "out": 1.875
     },
     "openrouter/google/gemini-3.7-flash": {
       "in": 0.75,
       "cached": 0.075,
-      "cache_write": 0.75,
+      "cache_write": 0.0416666666666667,
       "out": 3.75
+    },
+    "openrouter/google/gemini-3.7-flash:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.0416666666666667,
+      "out": 1.875
     },
     "openrouter/google/gemini-3.8-flash": {
       "in": 0.75,
       "cached": 0.075,
-      "cache_write": 0.75,
+      "cache_write": 0.0416666666666667,
       "out": 3.75
+    },
+    "openrouter/google/gemini-3.8-flash:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.0416666666666667,
+      "out": 1.875
     },
     "openrouter/google/gemma-2-27b-it": {
       "in": 0.65,
@@ -27780,7 +29562,7 @@
     },
     "openrouter/google/gemma-4-26b-a4b-it": {
       "in": 0.09,
-      "cached": 0.045,
+      "cached": 0.049999999999999996,
       "cache_write": 0.09,
       "out": 0.3
     },
@@ -27808,11 +29590,107 @@
       "cache_write": 0.08,
       "out": 0.11
     },
+    "openrouter/ibm-granite/granite-4.0-h-micro": {
+      "in": 0.017,
+      "cached": 0.0085,
+      "cache_write": 0.017,
+      "out": 0.112
+    },
+    "openrouter/ibm-granite/granite-4.2-8b": {
+      "in": 0.06,
+      "cached": 0.015,
+      "cache_write": 0.06,
+      "out": 0.25
+    },
+    "openrouter/inception/mercury-2": {
+      "in": 0.25,
+      "cached": 0.024999999999999998,
+      "cache_write": 0.25,
+      "out": 0.75
+    },
+    "openrouter/inception/mercury-2.5": {
+      "in": 0.04,
+      "cached": 0.004,
+      "cache_write": 0.04,
+      "out": 0.15
+    },
+    "openrouter/inclusionai/ling-3.0-flash": {
+      "in": 0.020999999999999998,
+      "cached": 0.004200000000000001,
+      "cache_write": 0.020999999999999998,
+      "out": 0.063
+    },
+    "openrouter/inclusionai/ling-3.0-flash-fin": {
+      "in": 0.06,
+      "cached": 0.012,
+      "cache_write": 0.06,
+      "out": 0.18
+    },
+    "openrouter/inclusionai/ling-3.0-flash-fin:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "openrouter/inclusionai/ling-3.0-flash-sante:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "openrouter/inclusionai/ling-3.0-flash-vl": {
+      "in": 0.06,
+      "cached": 0.012,
+      "cache_write": 0.06,
+      "out": 0.18
+    },
+    "openrouter/inclusionai/ling-3.0-flash-vl:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "openrouter/inference-net/schematron-v2-small": {
+      "in": 0.049999999999999996,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.049999999999999996,
+      "out": 0.22999999999999998
+    },
+    "openrouter/inference-net/schematron-v2-turbo": {
+      "in": 0.03,
+      "cached": 0.03,
+      "cache_write": 0.03,
+      "out": 0.15
+    },
+    "openrouter/kwaipilot/kat-coder-pro-v2": {
+      "in": 0.3,
+      "cached": 0.06,
+      "cache_write": 0.3,
+      "out": 1.2
+    },
+    "openrouter/kwaipilot/kat-coder-pro-v2.5": {
+      "in": 0.74,
+      "cached": 0.15,
+      "cache_write": 0.74,
+      "out": 2.96
+    },
+    "openrouter/liquid/lfm-2.5-2.6b:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
     "openrouter/mancer/weaver": {
       "in": 0.39999999999999997,
       "cached": 0.19999999999999998,
       "cache_write": 0.39999999999999997,
       "out": 0.75
+    },
+    "openrouter/meituan/longcat-2.0": {
+      "in": 0.3,
+      "cached": 0.006,
+      "cache_write": 0.3,
+      "out": 1.2
     },
     "openrouter/meta-llama/llama-3-70b-instruct": {
       "in": 0.59,
@@ -27868,6 +29746,60 @@
       "cache_write": 0.18,
       "out": 0.18
     },
+    "openrouter/meta/muse-glimmer-30b": {
+      "in": 0.3,
+      "cached": 0.04,
+      "cache_write": 0.3,
+      "out": 1.1
+    },
+    "openrouter/meta/muse-glimmer-30b:batch": {
+      "in": 0.175,
+      "cached": 0.02,
+      "cache_write": 0.175,
+      "out": 0.75
+    },
+    "openrouter/meta/muse-spark-1.1": {
+      "in": 1.25,
+      "cached": 0.15,
+      "cache_write": 1.25,
+      "out": 4.25
+    },
+    "openrouter/meta/muse-spark-1.2": {
+      "in": 1.25,
+      "cached": 0.15,
+      "cache_write": 1.25,
+      "out": 4.25
+    },
+    "openrouter/meta/muse-spark-1.2-contributor": {
+      "in": 0.09999999999999999,
+      "cached": 0.002,
+      "cache_write": 0.09999999999999999,
+      "out": 0.19999999999999998
+    },
+    "openrouter/meta/muse-spark-1.3": {
+      "in": 1.25,
+      "cached": 0.15,
+      "cache_write": 1.25,
+      "out": 4.25
+    },
+    "openrouter/meta/muse-spark-1.3-contributor": {
+      "in": 0.09999999999999999,
+      "cached": 0.002,
+      "cache_write": 0.09999999999999999,
+      "out": 0.19999999999999998
+    },
+    "openrouter/microsoft/phi-4": {
+      "in": 0.07,
+      "cached": 0.035,
+      "cache_write": 0.07,
+      "out": 0.14
+    },
+    "openrouter/microsoft/wizardlm-2-8x22b": {
+      "in": 0.62,
+      "cached": 0.31,
+      "cache_write": 0.62,
+      "out": 0.62
+    },
     "openrouter/minimax/minimax-01": {
       "in": 0.19999999999999998,
       "cached": 0.09999999999999999,
@@ -27922,6 +29854,12 @@
       "cache_write": 0.3,
       "out": 1.2
     },
+    "openrouter/minimax/minimax-m3:batch": {
+      "in": 0.3,
+      "cached": 0.06,
+      "cache_write": 0.3,
+      "out": 1.2
+    },
     "openrouter/minimax/minimax-m3:free": {
       "in": 0.0,
       "cached": 0.0,
@@ -27934,29 +29872,41 @@
       "cache_write": 0.3,
       "out": 0.8999999999999999
     },
+    "openrouter/mistralai/codestral-2508:batch": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.44999999999999996
+    },
     "openrouter/mistralai/devstral-2512": {
       "in": 0.39999999999999997,
-      "cached": 0.19999999999999998,
+      "cached": 0.04,
       "cache_write": 0.39999999999999997,
       "out": 2.0
     },
     "openrouter/mistralai/ministral-14b-2512": {
       "in": 0.19999999999999998,
-      "cached": 0.09999999999999999,
+      "cached": 0.02,
       "cache_write": 0.19999999999999998,
       "out": 0.19999999999999998
     },
     "openrouter/mistralai/ministral-3b-2512": {
       "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
+      "cached": 0.01,
       "cache_write": 0.09999999999999999,
       "out": 0.09999999999999999
     },
     "openrouter/mistralai/ministral-8b-2512": {
       "in": 0.15,
-      "cached": 0.075,
+      "cached": 0.015,
       "cache_write": 0.15,
       "out": 0.15
+    },
+    "openrouter/mistralai/ministral-8b-2512:batch": {
+      "in": 0.075,
+      "cached": 0.0075,
+      "cache_write": 0.075,
+      "out": 0.075
     },
     "openrouter/mistralai/mistral-7b-instruct": {
       "in": 0.13,
@@ -27966,7 +29916,7 @@
     },
     "openrouter/mistralai/mistral-large": {
       "in": 2.0,
-      "cached": 1.0,
+      "cached": 0.19999999999999998,
       "cache_write": 2.0,
       "out": 6.0
     },
@@ -27977,10 +29927,16 @@
       "out": 6.0
     },
     "openrouter/mistralai/mistral-large-2512": {
-      "in": 0.5,
-      "cached": 0.25,
-      "cache_write": 0.5,
-      "out": 1.5
+      "in": 0.55,
+      "cached": 0.055,
+      "cache_write": 0.55,
+      "out": 1.6500000000000001
+    },
+    "openrouter/mistralai/mistral-large-2512:batch": {
+      "in": 0.25,
+      "cached": 0.024999999999999998,
+      "cache_write": 0.25,
+      "out": 0.75
     },
     "openrouter/mistralai/mistral-medium-3": {
       "in": 0.39999999999999997,
@@ -27994,11 +29950,23 @@
       "cache_write": 1.5,
       "out": 7.5
     },
+    "openrouter/mistralai/mistral-medium-3-5:batch": {
+      "in": 0.75,
+      "cached": 0.375,
+      "cache_write": 0.75,
+      "out": 3.75
+    },
     "openrouter/mistralai/mistral-medium-3.1": {
       "in": 0.39999999999999997,
       "cached": 0.04,
       "cache_write": 0.39999999999999997,
       "out": 2.0
+    },
+    "openrouter/mistralai/mistral-medium-3.1:batch": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.19999999999999998,
+      "out": 1.0
     },
     "openrouter/mistralai/mistral-nemo": {
       "in": 0.019000000000000003,
@@ -28024,6 +29992,12 @@
       "cache_write": 0.15,
       "out": 0.6
     },
+    "openrouter/mistralai/mistral-small-2603:batch": {
+      "in": 0.075,
+      "cached": 0.0075,
+      "cache_write": 0.075,
+      "out": 0.3
+    },
     "openrouter/mistralai/mistral-small-3.1-24b-instruct": {
       "in": 0.351,
       "cached": 0.1755,
@@ -28038,7 +30012,7 @@
     },
     "openrouter/mistralai/mixtral-8x22b-instruct": {
       "in": 2.0,
-      "cached": 1.0,
+      "cached": 0.19999999999999998,
       "cache_write": 2.0,
       "out": 6.0
     },
@@ -28085,16 +30059,64 @@
       "out": 3.21
     },
     "openrouter/moonshotai/kimi-k3": {
+      "in": 2.0999999999999996,
+      "cached": 0.22999999999999998,
+      "cache_write": 2.0999999999999996,
+      "out": 10.950000000000001
+    },
+    "openrouter/moonshotai/kimi-k3:batch": {
       "in": 3.0,
       "cached": 0.3,
       "cache_write": 3.0,
       "out": 15.0
     },
+    "openrouter/morph/morph-v3-fast": {
+      "in": 0.7999999999999999,
+      "cached": 0.39999999999999997,
+      "cache_write": 0.7999999999999999,
+      "out": 1.2
+    },
+    "openrouter/morph/morph-v3-large": {
+      "in": 0.8999999999999999,
+      "cached": 0.44999999999999996,
+      "cache_write": 0.8999999999999999,
+      "out": 1.9
+    },
+    "openrouter/nex-agi/nex-n2.5-mini:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "openrouter/nex-agi/nex-n2.5-pro:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "openrouter/nousresearch/hermes-3-llama-3.1-405b": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 1.0
+    },
+    "openrouter/nousresearch/hermes-3-llama-3.1-70b": {
+      "in": 0.7,
+      "cached": 0.35,
+      "cache_write": 0.7,
+      "out": 0.7
+    },
+    "openrouter/nousresearch/hermes-4-405b": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 3.0
+    },
     "openrouter/nvidia/nemotron-3-nano-30b-a3b": {
-      "in": 0.049999999999999996,
+      "in": 0.06,
       "cached": 0.03,
-      "cache_write": 0.049999999999999996,
-      "out": 0.19999999999999998
+      "cache_write": 0.06,
+      "out": 0.24
     },
     "openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
       "in": 0.0,
@@ -28103,10 +30125,10 @@
       "out": 0.0
     },
     "openrouter/nvidia/nemotron-3-super-120b-a12b": {
-      "in": 0.08499999999999999,
-      "cached": 0.042499999999999996,
-      "cache_write": 0.08499999999999999,
-      "out": 0.39999999999999997
+      "in": 0.08,
+      "cached": 0.04,
+      "cache_write": 0.08,
+      "out": 0.44999999999999996
     },
     "openrouter/nvidia/nemotron-3-super-120b-a12b:free": {
       "in": 0.0,
@@ -28156,6 +30178,12 @@
       "cache_write": 0.5,
       "out": 1.5
     },
+    "openrouter/openai/gpt-3.5-turbo-0613": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 2.0
+    },
     "openrouter/openai/gpt-3.5-turbo-16k": {
       "in": 3.0,
       "cached": 1.5,
@@ -28167,6 +30195,12 @@
       "cached": 0.75,
       "cache_write": 1.5,
       "out": 2.0
+    },
+    "openrouter/openai/gpt-3.5-turbo:batch": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 0.75
     },
     "openrouter/openai/gpt-4": {
       "in": 30.0,
@@ -28186,6 +30220,12 @@
       "cache_write": 10.0,
       "out": 30.0
     },
+    "openrouter/openai/gpt-4-turbo:batch": {
+      "in": 5.0,
+      "cached": 2.5,
+      "cache_write": 5.0,
+      "out": 15.0
+    },
     "openrouter/openai/gpt-4.1": {
       "in": 2.0,
       "cached": 0.5,
@@ -28198,11 +30238,29 @@
       "cache_write": 0.39999999999999997,
       "out": 1.5999999999999999
     },
+    "openrouter/openai/gpt-4.1-mini:batch": {
+      "in": 0.19999999999999998,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.19999999999999998,
+      "out": 0.7999999999999999
+    },
     "openrouter/openai/gpt-4.1-nano": {
       "in": 0.09999999999999999,
       "cached": 0.024999999999999998,
       "cache_write": 0.09999999999999999,
       "out": 0.39999999999999997
+    },
+    "openrouter/openai/gpt-4.1-nano:batch": {
+      "in": 0.049999999999999996,
+      "cached": 0.012499999999999999,
+      "cache_write": 0.049999999999999996,
+      "out": 0.19999999999999998
+    },
+    "openrouter/openai/gpt-4.1:batch": {
+      "in": 1.0,
+      "cached": 0.25,
+      "cache_write": 1.0,
+      "out": 4.0
     },
     "openrouter/openai/gpt-4o": {
       "in": 2.5,
@@ -28240,6 +30298,18 @@
       "cache_write": 0.15,
       "out": 0.6
     },
+    "openrouter/openai/gpt-4o-mini:batch": {
+      "in": 0.075,
+      "cached": 0.0375,
+      "cache_write": 0.075,
+      "out": 0.3
+    },
+    "openrouter/openai/gpt-4o:batch": {
+      "in": 1.25,
+      "cached": 0.625,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
     "openrouter/openai/gpt-5": {
       "in": 1.25,
       "cached": 0.125,
@@ -28258,11 +30328,29 @@
       "cache_write": 1.25,
       "out": 10.0
     },
+    "openrouter/openai/gpt-5-image": {
+      "in": 10.0,
+      "cached": 1.25,
+      "cache_write": 10.0,
+      "out": 10.0
+    },
+    "openrouter/openai/gpt-5-image-mini": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 2.0
+    },
     "openrouter/openai/gpt-5-mini": {
       "in": 0.25,
       "cached": 0.024999999999999998,
       "cache_write": 0.25,
       "out": 2.0
+    },
+    "openrouter/openai/gpt-5-mini:batch": {
+      "in": 0.125,
+      "cached": 0.012499999999999999,
+      "cache_write": 0.125,
+      "out": 1.0
     },
     "openrouter/openai/gpt-5-nano": {
       "in": 0.049999999999999996,
@@ -28270,11 +30358,23 @@
       "cache_write": 0.049999999999999996,
       "out": 0.39999999999999997
     },
+    "openrouter/openai/gpt-5-nano:batch": {
+      "in": 0.024999999999999998,
+      "cached": 0.0025,
+      "cache_write": 0.024999999999999998,
+      "out": 0.19999999999999998
+    },
     "openrouter/openai/gpt-5-pro": {
       "in": 15.0,
       "cached": 7.5,
       "cache_write": 15.0,
       "out": 120.0
+    },
+    "openrouter/openai/gpt-5-pro:batch": {
+      "in": 7.5,
+      "cached": 3.75,
+      "cache_write": 7.5,
+      "out": 60.0
     },
     "openrouter/openai/gpt-5.1": {
       "in": 1.25,
@@ -28300,6 +30400,12 @@
       "cache_write": 0.25,
       "out": 2.0
     },
+    "openrouter/openai/gpt-5.1:batch": {
+      "in": 0.625,
+      "cached": 0.0625,
+      "cache_write": 0.625,
+      "out": 5.0
+    },
     "openrouter/openai/gpt-5.2": {
       "in": 1.75,
       "cached": 0.175,
@@ -28324,6 +30430,18 @@
       "cache_write": 21.0,
       "out": 168.0
     },
+    "openrouter/openai/gpt-5.2-pro:batch": {
+      "in": 10.5,
+      "cached": 5.25,
+      "cache_write": 10.5,
+      "out": 84.0
+    },
+    "openrouter/openai/gpt-5.2:batch": {
+      "in": 0.875,
+      "cached": 0.0875,
+      "cache_write": 0.875,
+      "out": 7.0
+    },
     "openrouter/openai/gpt-5.3-codex": {
       "in": 1.75,
       "cached": 0.175,
@@ -28336,11 +30454,23 @@
       "cache_write": 2.5,
       "out": 15.0
     },
+    "openrouter/openai/gpt-5.4-image-2": {
+      "in": 8.0,
+      "cached": 2.0,
+      "cache_write": 8.0,
+      "out": 15.0
+    },
     "openrouter/openai/gpt-5.4-mini": {
       "in": 0.75,
       "cached": 0.075,
       "cache_write": 0.75,
       "out": 4.5
+    },
+    "openrouter/openai/gpt-5.4-mini:batch": {
+      "in": 0.375,
+      "cached": 0.0375,
+      "cache_write": 0.375,
+      "out": 2.25
     },
     "openrouter/openai/gpt-5.4-nano": {
       "in": 0.19999999999999998,
@@ -28348,11 +30478,29 @@
       "cache_write": 0.19999999999999998,
       "out": 1.25
     },
+    "openrouter/openai/gpt-5.4-nano:batch": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.09999999999999999,
+      "out": 0.625
+    },
     "openrouter/openai/gpt-5.4-pro": {
       "in": 30.0,
       "cached": 15.0,
       "cache_write": 30.0,
       "out": 180.0
+    },
+    "openrouter/openai/gpt-5.4-pro:batch": {
+      "in": 15.0,
+      "cached": 7.5,
+      "cache_write": 15.0,
+      "out": 90.0
+    },
+    "openrouter/openai/gpt-5.4:batch": {
+      "in": 1.25,
+      "cached": 0.125,
+      "cache_write": 1.25,
+      "out": 7.5
     },
     "openrouter/openai/gpt-5.5": {
       "in": 5.0,
@@ -28366,10 +30514,22 @@
       "cache_write": 30.0,
       "out": 180.0
     },
+    "openrouter/openai/gpt-5.5-pro:batch": {
+      "in": 15.0,
+      "cached": 7.5,
+      "cache_write": 15.0,
+      "out": 90.0
+    },
+    "openrouter/openai/gpt-5.5:batch": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 15.0
+    },
     "openrouter/openai/gpt-5.6-luna": {
       "in": 0.19999999999999998,
       "cached": 0.02,
-      "cache_write": 0.19999999999999998,
+      "cache_write": 0.25,
       "out": 1.2
     },
     "openrouter/openai/gpt-5.6-luna-pro": {
@@ -28377,6 +30537,18 @@
       "cached": 0.02,
       "cache_write": 0.25,
       "out": 1.2
+    },
+    "openrouter/openai/gpt-5.6-luna-pro:batch": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.09999999999999999,
+      "out": 0.6
+    },
+    "openrouter/openai/gpt-5.6-luna:batch": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.09999999999999999,
+      "out": 0.6
     },
     "openrouter/openai/gpt-5.6-sol": {
       "in": 2.0,
@@ -28390,10 +30562,22 @@
       "cache_write": 2.5,
       "out": 10.0
     },
+    "openrouter/openai/gpt-5.6-sol-pro:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
+    "openrouter/openai/gpt-5.6-sol:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
     "openrouter/openai/gpt-5.6-terra": {
       "in": 2.0,
       "cached": 0.19999999999999998,
-      "cache_write": 2.0,
+      "cache_write": 2.5,
       "out": 12.0
     },
     "openrouter/openai/gpt-5.6-terra-pro": {
@@ -28401,6 +30585,24 @@
       "cached": 0.19999999999999998,
       "cache_write": 2.5,
       "out": 12.0
+    },
+    "openrouter/openai/gpt-5.6-terra-pro:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.0,
+      "out": 6.0
+    },
+    "openrouter/openai/gpt-5.6-terra:batch": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.0,
+      "out": 6.0
+    },
+    "openrouter/openai/gpt-5:batch": {
+      "in": 0.625,
+      "cached": 0.0625,
+      "cache_write": 0.625,
+      "out": 5.0
     },
     "openrouter/openai/gpt-6-astra": {
       "in": 10.0,
@@ -28413,6 +30615,18 @@
       "cached": 1.0,
       "cache_write": 12.5,
       "out": 50.0
+    },
+    "openrouter/openai/gpt-6-astra-pro:batch": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "openrouter/openai/gpt-6-astra:batch": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
     },
     "openrouter/openai/gpt-audio": {
       "in": 2.5,
@@ -28433,14 +30647,20 @@
       "out": 30.0
     },
     "openrouter/openai/gpt-oss-120b": {
-      "in": 0.037,
-      "cached": 0.0185,
-      "cache_write": 0.037,
-      "out": 0.16999999999999998
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
+    "openrouter/openai/gpt-oss-120b:batch": {
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 0.6
     },
     "openrouter/openai/gpt-oss-20b": {
       "in": 0.03,
-      "cached": 0.015,
+      "cached": 0.03,
       "cache_write": 0.03,
       "out": 0.13
     },
@@ -28480,11 +30700,23 @@
       "cache_write": 1.1,
       "out": 4.4
     },
+    "openrouter/openai/o3-mini:batch": {
+      "in": 0.55,
+      "cached": 0.275,
+      "cache_write": 0.55,
+      "out": 2.2
+    },
     "openrouter/openai/o3-pro": {
       "in": 20.0,
       "cached": 10.0,
       "cache_write": 20.0,
       "out": 80.0
+    },
+    "openrouter/openai/o3:batch": {
+      "in": 1.0,
+      "cached": 0.25,
+      "cache_write": 1.0,
+      "out": 4.0
     },
     "openrouter/openai/o4-mini": {
       "in": 1.1,
@@ -28497,6 +30729,12 @@
       "cached": 0.275,
       "cache_write": 1.1,
       "out": 4.4
+    },
+    "openrouter/openai/o4-mini:batch": {
+      "in": 0.55,
+      "cached": 0.1375,
+      "cache_write": 0.55,
+      "out": 2.2
     },
     "openrouter/openrouter/auto": {
       "in": 0.0,
@@ -28515,6 +30753,42 @@
       "cached": 0.0,
       "cache_write": 0.0,
       "out": 0.0
+    },
+    "openrouter/perceptron/perceptron-mk1": {
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 1.5
+    },
+    "openrouter/perplexity/sonar": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 1.0
+    },
+    "openrouter/perplexity/sonar-deep-research": {
+      "in": 2.0,
+      "cached": 1.0,
+      "cache_write": 2.0,
+      "out": 8.0
+    },
+    "openrouter/perplexity/sonar-pro": {
+      "in": 3.0,
+      "cached": 1.5,
+      "cache_write": 3.0,
+      "out": 15.0
+    },
+    "openrouter/perplexity/sonar-pro-search": {
+      "in": 3.0,
+      "cached": 1.5,
+      "cache_write": 3.0,
+      "out": 15.0
+    },
+    "openrouter/perplexity/sonar-reasoning-pro": {
+      "in": 2.0,
+      "cached": 1.0,
+      "cache_write": 2.0,
+      "out": 8.0
     },
     "openrouter/poolside/laguna-s-2.1": {
       "in": 0.09,
@@ -28566,8 +30840,8 @@
     },
     "openrouter/qwen/qwen-plus-2025-07-28": {
       "in": 0.26,
-      "cached": 0.13,
-      "cache_write": 0.26,
+      "cached": 0.052000000000000005,
+      "cache_write": 0.325,
       "out": 0.78
     },
     "openrouter/qwen/qwen-vl-plus": {
@@ -28596,7 +30870,7 @@
     },
     "openrouter/qwen/qwen3-235b-a22b-2507": {
       "in": 0.0875,
-      "cached": 0.04375,
+      "cached": 0.0175,
       "cache_write": 0.0875,
       "out": 0.35
     },
@@ -28638,7 +30912,7 @@
     },
     "openrouter/qwen/qwen3-coder": {
       "in": 0.3,
-      "cached": 0.15,
+      "cached": 0.09999999999999999,
       "cache_write": 0.3,
       "out": 1.0
     },
@@ -28662,8 +30936,8 @@
     },
     "openrouter/qwen/qwen3-coder-plus": {
       "in": 0.65,
-      "cached": 0.325,
-      "cache_write": 0.65,
+      "cached": 0.13,
+      "cache_write": 0.8125,
       "out": 3.25
     },
     "openrouter/qwen/qwen3-max": {
@@ -28752,7 +31026,7 @@
     },
     "openrouter/qwen/qwen3.5-397b-a17b": {
       "in": 0.55,
-      "cached": 0.275,
+      "cached": 0.22499999999999998,
       "cache_write": 0.55,
       "out": 3.5
     },
@@ -28761,6 +31035,12 @@
       "cached": 0.049999999999999996,
       "cache_write": 0.09999999999999999,
       "out": 0.15
+    },
+    "openrouter/qwen/qwen3.5-9b:batch": {
+      "in": 0.16999999999999998,
+      "cached": 0.08499999999999999,
+      "cache_write": 0.16999999999999998,
+      "out": 0.25
     },
     "openrouter/qwen/qwen3.5-flash-02-23": {
       "in": 0.065,
@@ -28807,7 +31087,7 @@
     "openrouter/qwen/qwen3.6-plus": {
       "in": 0.325,
       "cached": 0.1625,
-      "cache_write": 0.325,
+      "cache_write": 0.40625,
       "out": 1.95
     },
     "openrouter/qwen/qwen3.7-flash": {
@@ -28834,11 +31114,23 @@
       "cache_write": 2.0,
       "out": 6.0
     },
+    "openrouter/qwen/qwen3.8-2.4t-a95b:batch": {
+      "in": 2.0,
+      "cached": 0.25,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
     "openrouter/qwen/qwen3.8-27b": {
       "in": 0.21400000000000002,
       "cached": 0.15,
       "cache_write": 0.21400000000000002,
       "out": 2.5500000000000003
+    },
+    "openrouter/qwen/qwen3.8-27b:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
     },
     "openrouter/qwen/qwen3.8-flash": {
       "in": 0.15,
@@ -28858,11 +31150,89 @@
       "cache_write": 2.5,
       "out": 6.0
     },
+    "openrouter/rekaai/reka-edge": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.09999999999999999
+    },
+    "openrouter/rekaai/reka-flash-3": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.19999999999999998
+    },
+    "openrouter/relace/relace-apply-3": {
+      "in": 0.85,
+      "cached": 0.425,
+      "cache_write": 0.85,
+      "out": 1.25
+    },
+    "openrouter/relace/relace-search": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 3.0
+    },
+    "openrouter/sakana/fugu-max": {
+      "in": 2.0,
+      "cached": 0.25,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "openrouter/sakana/fugu-ultra": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 30.0
+    },
+    "openrouter/sakana/fugu-ultra-v2": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 30.0
+    },
+    "openrouter/sakana/sakana-namazu": {
+      "in": 0.95,
+      "cached": 0.15,
+      "cache_write": 0.95,
+      "out": 4.0
+    },
+    "openrouter/sao10k/l3-lunaris-8b": {
+      "in": 0.04,
+      "cached": 0.02,
+      "cache_write": 0.04,
+      "out": 0.049999999999999996
+    },
+    "openrouter/sao10k/l3.1-euryale-70b": {
+      "in": 0.85,
+      "cached": 0.425,
+      "cache_write": 0.85,
+      "out": 0.85
+    },
+    "openrouter/sao10k/l3.3-euryale-70b": {
+      "in": 0.65,
+      "cached": 0.325,
+      "cache_write": 0.65,
+      "out": 0.75
+    },
     "openrouter/stealth/union-alpha": {
       "in": 0.0,
       "cached": 0.0,
       "cache_write": 0.0,
       "out": 0.0
+    },
+    "openrouter/stepfun/step-3.5-flash": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.3
+    },
+    "openrouter/stepfun/step-3.7-flash": {
+      "in": 0.19999999999999998,
+      "cached": 0.04,
+      "cache_write": 0.19999999999999998,
+      "out": 1.15
     },
     "openrouter/switchpoint/router": {
       "in": 0.85,
@@ -28870,11 +31240,125 @@
       "cache_write": 0.85,
       "out": 3.4
     },
-    "openrouter/undi95/remm-slerp-l2-13b": {
+    "openrouter/tencent/hunyuan-a13b-instruct": {
+      "in": 0.14,
+      "cached": 0.07,
+      "cache_write": 0.14,
+      "out": 0.5700000000000001
+    },
+    "openrouter/tencent/hy-mt2-1.8b": {
+      "in": 0.044,
+      "cached": 0.022,
+      "cache_write": 0.044,
+      "out": 0.17700000000000002
+    },
+    "openrouter/tencent/hy-mt2-30b-a3b": {
+      "in": 0.074,
+      "cached": 0.037,
+      "cache_write": 0.074,
+      "out": 0.295
+    },
+    "openrouter/tencent/hy-mt2-7b": {
+      "in": 0.074,
+      "cached": 0.037,
+      "cache_write": 0.074,
+      "out": 0.295
+    },
+    "openrouter/tencent/hy3": {
+      "in": 0.13199999999999998,
+      "cached": 0.032999999999999995,
+      "cache_write": 0.13199999999999998,
+      "out": 0.5279999999999999
+    },
+    "openrouter/tencent/hy3-preview": {
+      "in": 0.18,
+      "cached": 0.06,
+      "cache_write": 0.18,
+      "out": 0.6
+    },
+    "openrouter/tencent/hy4-preview": {
+      "in": 0.834,
+      "cached": 0.041999999999999996,
+      "cache_write": 0.834,
+      "out": 2.501
+    },
+    "openrouter/thedrummer/cydonia-24b-v4.1": {
+      "in": 0.3,
+      "cached": 0.15,
+      "cache_write": 0.3,
+      "out": 0.5
+    },
+    "openrouter/thedrummer/skyfall-36b-v2": {
+      "in": 0.55,
+      "cached": 0.25,
+      "cache_write": 0.55,
+      "out": 0.7999999999999999
+    },
+    "openrouter/thedrummer/unslopnemo-12b": {
+      "in": 0.39999999999999997,
+      "cached": 0.19999999999999998,
+      "cache_write": 0.39999999999999997,
+      "out": 0.39999999999999997
+    },
+    "openrouter/thinkingmachines/inkling": {
+      "in": 1.0,
+      "cached": 0.16999999999999998,
+      "cache_write": 1.0,
+      "out": 4.05
+    },
+    "openrouter/thinkingmachines/inkling-small": {
       "in": 0.44999999999999996,
-      "cached": 0.22499999999999998,
+      "cached": 0.09999999999999999,
       "cache_write": 0.44999999999999996,
+      "out": 1.2
+    },
+    "openrouter/thinkingmachines/inkling-small:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "openrouter/thinkingmachines/inkling:batch": {
+      "in": 1.0,
+      "cached": 0.16999999999999998,
+      "cache_write": 1.0,
+      "out": 4.05
+    },
+    "openrouter/thinkingmachines/inkling:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "openrouter/unbiased/pareto": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 7.5
+    },
+    "openrouter/undi95/remm-slerp-l2-13b": {
+      "in": 0.35,
+      "cached": 0.175,
+      "cache_write": 0.35,
       "out": 0.65
+    },
+    "openrouter/upstage/solar-pro-3": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
+    "openrouter/upstage/solar-pro4": {
+      "in": 0.09,
+      "cached": 0.018,
+      "cache_write": 0.09,
+      "out": 0.36
+    },
+    "openrouter/writer/palmyra-x5": {
+      "in": 0.6,
+      "cached": 0.3,
+      "cache_write": 0.6,
+      "out": 6.0
     },
     "openrouter/x-ai/grok-4": {
       "in": 3.0,
@@ -28899,6 +31383,12 @@
       "cached": 0.19999999999999998,
       "cache_write": 1.25,
       "out": 2.5
+    },
+    "openrouter/x-ai/grok-4.3:batch": {
+      "in": 1.0,
+      "cached": 0.16,
+      "cache_write": 1.0,
+      "out": 2.0
     },
     "openrouter/x-ai/grok-4.5": {
       "in": 2.0,
@@ -28979,14 +31469,14 @@
       "out": 1.75
     },
     "openrouter/z-ai/glm-4.7-flash": {
-      "in": 0.06,
+      "in": 0.060500000000000005,
       "cached": 0.01,
       "cache_write": 0.0,
       "out": 0.39999999999999997
     },
     "openrouter/z-ai/glm-5": {
       "in": 0.6,
-      "cached": 0.3,
+      "cached": 0.12,
       "cache_write": 0.6,
       "out": 1.92
     },
@@ -29003,10 +31493,16 @@
       "out": 3.036
     },
     "openrouter/z-ai/glm-5.2": {
-      "in": 1.4,
-      "cached": 0.14,
-      "cache_write": 1.4,
-      "out": 4.4
+      "in": 0.4875,
+      "cached": 0.091,
+      "cache_write": 0.4875,
+      "out": 1.56
+    },
+    "openrouter/z-ai/glm-5.2:batch": {
+      "in": 0.7,
+      "cached": 0.07,
+      "cache_write": 0.7,
+      "out": 2.2
     },
     "openrouter/z-ai/glm-5.2:free": {
       "in": 0.0,
@@ -29016,7 +31512,7 @@
     },
     "openrouter/z-ai/glm-5.3": {
       "in": 1.4,
-      "cached": 0.14,
+      "cached": 0.26,
       "cache_write": 1.4,
       "out": 4.4
     },
@@ -29026,11 +31522,131 @@
       "cache_write": 0.09,
       "out": 0.3
     },
+    "openrouter/z-ai/glm-5.3-flash:batch": {
+      "in": 0.075,
+      "cached": 0.015,
+      "cache_write": 0.075,
+      "out": 0.25
+    },
+    "openrouter/z-ai/glm-5.3:batch": {
+      "in": 0.7,
+      "cached": 0.13,
+      "cache_write": 0.7,
+      "out": 2.2
+    },
     "openrouter/z-ai/glm-5v-turbo": {
       "in": 1.2,
       "cached": 0.24,
       "cache_write": 1.2,
       "out": 4.0
+    },
+    "openrouter/~anthropic/claude-fable-latest": {
+      "in": 10.0,
+      "cached": 0.25,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "openrouter/~anthropic/claude-haiku-latest": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
+    "openrouter/~anthropic/claude-opus-latest": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "openrouter/~anthropic/claude-sonnet-latest": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "openrouter/~deepseek/deepseek-flash-latest": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
+    "openrouter/~deepseek/deepseek-pro-latest": {
+      "in": 0.66,
+      "cached": 0.022,
+      "cache_write": 0.66,
+      "out": 1.9800000000000002
+    },
+    "openrouter/~deepseek/deepseek-v4-flash-latest": {
+      "in": 0.055799999999999995,
+      "cached": 0.008799999999999999,
+      "cache_write": 0.055799999999999995,
+      "out": 0.1767
+    },
+    "openrouter/~google/gemini-flash-latest": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.0416666666666667,
+      "out": 3.75
+    },
+    "openrouter/~google/gemini-pro-latest": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 0.375,
+      "out": 12.0
+    },
+    "openrouter/~moonshotai/kimi-latest": {
+      "in": 2.0999999999999996,
+      "cached": 0.22999999999999998,
+      "cache_write": 2.0999999999999996,
+      "out": 10.950000000000001
+    },
+    "openrouter/~openai/gpt-astra-latest": {
+      "in": 10.0,
+      "cached": 1.0,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "openrouter/~openai/gpt-luna-latest": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.25,
+      "out": 1.2
+    },
+    "openrouter/~openai/gpt-mini-latest": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.75,
+      "out": 4.5
+    },
+    "openrouter/~openai/gpt-sol-latest": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "openrouter/~openai/gpt-terra-latest": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 12.0
+    },
+    "openrouter/~x-ai/grok-latest": {
+      "in": 2.0,
+      "cached": 0.5,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "openrouter/~z-ai/glm-flash-latest": {
+      "in": 0.075,
+      "cached": 0.015,
+      "cache_write": 0.075,
+      "out": 0.25
+    },
+    "openrouter/~z-ai/glm-latest": {
+      "in": 0.8775,
+      "cached": 0.1755,
+      "cache_write": 0.8775,
+      "out": 2.9699999999999998
     },
     "openthinker-7b": {
       "in": 0.08,
@@ -29182,11 +31798,35 @@
       "cache_write": 0.125,
       "out": 0.125
     },
+    "palmyra-x5": {
+      "in": 0.6,
+      "cached": 0.3,
+      "cache_write": 0.6,
+      "out": 6.0
+    },
+    "pareto": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 7.5
+    },
     "pearl-ai/gemma-4-31b-it": {
       "in": 0.28,
       "cached": 0.14,
       "cache_write": 0.28,
       "out": 0.86
+    },
+    "perceptron-mk1": {
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 1.5
+    },
+    "perceptron/perceptron-mk1": {
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 1.5
     },
     "perplexity/anthropic/claude-fable-5": {
       "in": 10.0,
@@ -29578,6 +32218,12 @@
       "cache_write": 3.0,
       "out": 15.0
     },
+    "perplexity/sonar-pro-search": {
+      "in": 3.0,
+      "cached": 1.5,
+      "cache_write": 3.0,
+      "out": 15.0
+    },
     "perplexity/sonar-reasoning": {
       "in": 1.0,
       "cached": 0.5,
@@ -29742,7 +32388,7 @@
     },
     "pixtral-large-latest": {
       "in": 2.0,
-      "cached": 1.0,
+      "cached": 0.19999999999999998,
       "cache_write": 2.0,
       "out": 6.0
     },
@@ -30024,8 +32670,8 @@
     },
     "qwen-plus-2025-07-28": {
       "in": 0.26,
-      "cached": 0.13,
-      "cache_write": 0.26,
+      "cached": 0.052000000000000005,
+      "cache_write": 0.325,
       "out": 0.78
     },
     "qwen-qwq-32b-preview": {
@@ -30150,8 +32796,8 @@
     },
     "qwen/qwen-plus-2025-07-28": {
       "in": 0.26,
-      "cached": 0.13,
-      "cache_write": 0.26,
+      "cached": 0.052000000000000005,
+      "cache_write": 0.325,
       "out": 0.78
     },
     "qwen/qwen-vl-plus": {
@@ -30186,7 +32832,7 @@
     },
     "qwen/qwen3-235b-a22b-2507": {
       "in": 0.0875,
-      "cached": 0.04375,
+      "cached": 0.0175,
       "cache_write": 0.0875,
       "out": 0.35
     },
@@ -30270,7 +32916,7 @@
     },
     "qwen/qwen3-coder": {
       "in": 0.3,
-      "cached": 0.15,
+      "cached": 0.09999999999999999,
       "cache_write": 0.3,
       "out": 1.0
     },
@@ -30306,8 +32952,8 @@
     },
     "qwen/qwen3-coder-plus": {
       "in": 0.65,
-      "cached": 0.325,
-      "cache_write": 0.65,
+      "cached": 0.13,
+      "cache_write": 0.8125,
       "out": 3.25
     },
     "qwen/qwen3-embedding-0.6b": {
@@ -30438,7 +33084,7 @@
     },
     "qwen/qwen3.5-397b-a17b": {
       "in": 0.55,
-      "cached": 0.275,
+      "cached": 0.22499999999999998,
       "cache_write": 0.55,
       "out": 3.5
     },
@@ -30447,6 +33093,12 @@
       "cached": 0.049999999999999996,
       "cache_write": 0.09999999999999999,
       "out": 0.15
+    },
+    "qwen/qwen3.5-9b:batch": {
+      "in": 0.16999999999999998,
+      "cached": 0.08499999999999999,
+      "cache_write": 0.16999999999999998,
+      "out": 0.25
     },
     "qwen/qwen3.5-flash-02-23": {
       "in": 0.065,
@@ -30493,7 +33145,7 @@
     "qwen/qwen3.6-plus": {
       "in": 0.325,
       "cached": 0.1625,
-      "cache_write": 0.325,
+      "cache_write": 0.40625,
       "out": 1.95
     },
     "qwen/qwen3.7-flash": {
@@ -30520,11 +33172,23 @@
       "cache_write": 2.0,
       "out": 6.0
     },
+    "qwen/qwen3.8-2.4t-a95b:batch": {
+      "in": 2.0,
+      "cached": 0.25,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
     "qwen/qwen3.8-27b": {
       "in": 0.7999999999999999,
       "cached": 0.39999999999999997,
       "cache_write": 0.7999999999999999,
       "out": 4.0
+    },
+    "qwen/qwen3.8-27b:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
     },
     "qwen/qwen3.8-flash": {
       "in": 0.15,
@@ -30822,7 +33486,7 @@
     },
     "qwen3-235b-a22b-2507": {
       "in": 0.0875,
-      "cached": 0.04375,
+      "cached": 0.0175,
       "cache_write": 0.0875,
       "out": 0.35
     },
@@ -30918,7 +33582,7 @@
     },
     "qwen3-coder": {
       "in": 0.3,
-      "cached": 0.15,
+      "cached": 0.09999999999999999,
       "cache_write": 0.3,
       "out": 1.0
     },
@@ -30966,8 +33630,8 @@
     },
     "qwen3-coder-plus": {
       "in": 0.65,
-      "cached": 0.325,
-      "cache_write": 0.65,
+      "cached": 0.13,
+      "cache_write": 0.8125,
       "out": 3.25
     },
     "qwen3-coder:480b-cloud": {
@@ -31146,7 +33810,7 @@
     },
     "qwen3.5-397b-a17b": {
       "in": 0.55,
-      "cached": 0.275,
+      "cached": 0.22499999999999998,
       "cache_write": 0.55,
       "out": 3.5
     },
@@ -31155,6 +33819,12 @@
       "cached": 0.049999999999999996,
       "cache_write": 0.09999999999999999,
       "out": 0.15
+    },
+    "qwen3.5-9b:batch": {
+      "in": 0.16999999999999998,
+      "cached": 0.08499999999999999,
+      "cache_write": 0.16999999999999998,
+      "out": 0.25
     },
     "qwen3.5-flash-02-23": {
       "in": 0.065,
@@ -31213,7 +33883,7 @@
     "qwen3.6-plus": {
       "in": 0.325,
       "cached": 0.1625,
-      "cache_write": 0.325,
+      "cache_write": 0.40625,
       "out": 1.95
     },
     "qwen3.7-flash": {
@@ -31240,11 +33910,23 @@
       "cache_write": 2.0,
       "out": 6.0
     },
+    "qwen3.8-2.4t-a95b:batch": {
+      "in": 2.0,
+      "cached": 0.25,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
     "qwen3.8-27b": {
       "in": 0.7999999999999999,
       "cached": 0.39999999999999997,
       "cache_write": 0.7999999999999999,
       "out": 4.0
+    },
+    "qwen3.8-27b:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
     },
     "qwen3.8-flash": {
       "in": 0.15,
@@ -31600,10 +34282,58 @@
       "cache_write": 0.0,
       "out": 0.0
     },
+    "reka-edge": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.09999999999999999
+    },
+    "reka-flash-3": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.19999999999999998
+    },
+    "rekaai/reka-edge": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.09999999999999999
+    },
+    "rekaai/reka-flash-3": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.19999999999999998
+    },
+    "relace-apply-3": {
+      "in": 0.85,
+      "cached": 0.425,
+      "cache_write": 0.85,
+      "out": 1.25
+    },
+    "relace-search": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 3.0
+    },
+    "relace/relace-apply-3": {
+      "in": 0.85,
+      "cached": 0.425,
+      "cache_write": 0.85,
+      "out": 1.25
+    },
+    "relace/relace-search": {
+      "in": 1.0,
+      "cached": 0.5,
+      "cache_write": 1.0,
+      "out": 3.0
+    },
     "remm-slerp-l2-13b": {
-      "in": 0.44999999999999996,
-      "cached": 0.22499999999999998,
-      "cache_write": 0.44999999999999996,
+      "in": 0.35,
+      "cached": 0.175,
+      "cache_write": 0.35,
       "out": 0.65
     },
     "replicate/anthropic/claude-3.5-haiku": {
@@ -32020,6 +34750,36 @@
       "cache_write": 0.0,
       "out": 0.0
     },
+    "sakana-namazu": {
+      "in": 0.95,
+      "cached": 0.15,
+      "cache_write": 0.95,
+      "out": 4.0
+    },
+    "sakana/fugu-max": {
+      "in": 2.0,
+      "cached": 0.25,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "sakana/fugu-ultra": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 30.0
+    },
+    "sakana/fugu-ultra-v2": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 30.0
+    },
+    "sakana/sakana-namazu": {
+      "in": 0.95,
+      "cached": 0.15,
+      "cache_write": 0.95,
+      "out": 4.0
+    },
     "salamandra-7b-instruct-tools-16k": {
       "in": 0.0,
       "cached": 0.0,
@@ -32158,6 +34918,24 @@
       "cache_write": 0.049999999999999996,
       "out": 0.049999999999999996
     },
+    "sao10k/l3-lunaris-8b": {
+      "in": 0.04,
+      "cached": 0.02,
+      "cache_write": 0.04,
+      "out": 0.049999999999999996
+    },
+    "sao10k/l3.1-euryale-70b": {
+      "in": 0.85,
+      "cached": 0.425,
+      "cache_write": 0.85,
+      "out": 0.85
+    },
+    "sao10k/l3.3-euryale-70b": {
+      "in": 0.65,
+      "cached": 0.325,
+      "cache_write": 0.65,
+      "out": 0.75
+    },
     "sao10k/l31-70b-euryale-v2.2": {
       "in": 1.48,
       "cached": 0.74,
@@ -32290,6 +35068,18 @@
       "cache_write": 0.25,
       "out": 1.5
     },
+    "schematron-v2-small": {
+      "in": 0.049999999999999996,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.049999999999999996,
+      "out": 0.22999999999999998
+    },
+    "schematron-v2-turbo": {
+      "in": 0.03,
+      "cached": 0.03,
+      "cache_write": 0.03,
+      "out": 0.15
+    },
     "scx-ai/GLM-5.2": {
       "in": 0.61,
       "cached": 0.22,
@@ -32307,6 +35097,48 @@
       "cached": 0.8999999999999999,
       "cache_write": 1.7999999999999998,
       "out": 1.7999999999999998
+    },
+    "seed-1.6": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 2.0
+    },
+    "seed-1.6-flash": {
+      "in": 0.075,
+      "cached": 0.0375,
+      "cache_write": 0.075,
+      "out": 0.3
+    },
+    "seed-2-1-turbo": {
+      "in": 0.5,
+      "cached": 0.25,
+      "cache_write": 0.5,
+      "out": 2.5
+    },
+    "seed-2.0-code": {
+      "in": 0.5,
+      "cached": 0.25,
+      "cache_write": 0.5,
+      "out": 3.0
+    },
+    "seed-2.0-lite": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 2.0
+    },
+    "seed-2.0-mini": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.39999999999999997
+    },
+    "skyfall-36b-v2": {
+      "in": 0.55,
+      "cached": 0.25,
+      "cache_write": 0.55,
+      "out": 0.7999999999999999
     },
     "skywork/r1v4-lite": {
       "in": 0.19999999999999998,
@@ -32464,6 +35296,18 @@
       "cache_write": 0.72,
       "out": 0.72
     },
+    "solar-pro-3": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
+    "solar-pro4": {
+      "in": 0.09,
+      "cached": 0.018,
+      "cache_write": 0.09,
+      "out": 0.36
+    },
     "sonar": {
       "in": 1.0,
       "cached": 0.5,
@@ -32489,6 +35333,12 @@
       "out": 1.7999999999999998
     },
     "sonar-pro": {
+      "in": 3.0,
+      "cached": 1.5,
+      "cache_write": 3.0,
+      "out": 15.0
+    },
+    "sonar-pro-search": {
       "in": 3.0,
       "cached": 1.5,
       "cache_write": 3.0,
@@ -32590,6 +35440,12 @@
       "cache_write": 0.0,
       "out": 0.0
     },
+    "step-3.5-flash": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.3
+    },
     "step-3.7-flash": {
       "in": 0.2,
       "cached": 0.04,
@@ -32601,6 +35457,12 @@
       "cached": 0.04,
       "cache_write": 0.19999999999999998,
       "out": 1.15
+    },
+    "stepfun/step-3.5-flash": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.3
     },
     "stepfun/step-3.7-flash": {
       "in": 0.2,
@@ -32662,11 +35524,47 @@
       "cache_write": 0.0,
       "out": 0.87
     },
+    "tencent/hunyuan-a13b-instruct": {
+      "in": 0.14,
+      "cached": 0.07,
+      "cache_write": 0.14,
+      "out": 0.5700000000000001
+    },
+    "tencent/hy-mt2-1.8b": {
+      "in": 0.044,
+      "cached": 0.022,
+      "cache_write": 0.044,
+      "out": 0.17700000000000002
+    },
+    "tencent/hy-mt2-30b-a3b": {
+      "in": 0.074,
+      "cached": 0.037,
+      "cache_write": 0.074,
+      "out": 0.295
+    },
+    "tencent/hy-mt2-7b": {
+      "in": 0.074,
+      "cached": 0.037,
+      "cache_write": 0.074,
+      "out": 0.295
+    },
     "tencent/hy3": {
       "in": 0.14,
       "cached": 0.035,
       "cache_write": 0.14,
       "out": 0.58
+    },
+    "tencent/hy3-preview": {
+      "in": 0.18,
+      "cached": 0.06,
+      "cache_write": 0.18,
+      "out": 0.6
+    },
+    "tencent/hy4-preview": {
+      "in": 0.834,
+      "cached": 0.041999999999999996,
+      "cache_write": 0.834,
+      "out": 2.501
     },
     "tencent/minimax-m3": {
       "in": 0.3,
@@ -32860,6 +35758,24 @@
       "cache_write": 10.0,
       "out": 28.0
     },
+    "thedrummer/cydonia-24b-v4.1": {
+      "in": 0.3,
+      "cached": 0.15,
+      "cache_write": 0.3,
+      "out": 0.5
+    },
+    "thedrummer/skyfall-36b-v2": {
+      "in": 0.55,
+      "cached": 0.25,
+      "cache_write": 0.55,
+      "out": 0.7999999999999999
+    },
+    "thedrummer/unslopnemo-12b": {
+      "in": 0.39999999999999997,
+      "cached": 0.19999999999999998,
+      "cache_write": 0.39999999999999997,
+      "out": 0.39999999999999997
+    },
     "thenlper/gte-base": {
       "in": 0.008,
       "cached": 0.004,
@@ -32883,6 +35799,36 @@
       "cached": 0.09999999999999999,
       "cache_write": 0.5,
       "out": 1.2
+    },
+    "thinkingmachines/inkling": {
+      "in": 1.0,
+      "cached": 0.16999999999999998,
+      "cache_write": 1.0,
+      "out": 4.05
+    },
+    "thinkingmachines/inkling-small": {
+      "in": 0.44999999999999996,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.44999999999999996,
+      "out": 1.2
+    },
+    "thinkingmachines/inkling-small:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "thinkingmachines/inkling:batch": {
+      "in": 1.0,
+      "cached": 0.16999999999999998,
+      "cache_write": 1.0,
+      "out": 4.05
+    },
+    "thinkingmachines/inkling:free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
     },
     "thudm/glm-4-32b-0414": {
       "in": 0.55,
@@ -33514,6 +36460,12 @@
       "cache_write": 0.19999999999999998,
       "out": 0.19999999999999998
     },
+    "trinity-large-thinking": {
+      "in": 0.25,
+      "cached": 0.06,
+      "cache_write": 0.25,
+      "out": 0.7999999999999999
+    },
     "trinity-mini": {
       "in": 0.045,
       "cached": 0.0225,
@@ -33538,16 +36490,40 @@
       "cache_write": 0.0,
       "out": 7.5
     },
+    "typesafe/jev-1.13.0": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
+    "typesafe/jev-latest": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
+    "typesafe/jev-preview": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
     "ui-tars-1.5-7b": {
       "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
+      "cached": 0.09999999999999999,
       "cache_write": 0.09999999999999999,
       "out": 0.19999999999999998
     },
+    "unbiased/pareto": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 7.5
+    },
     "undi95/remm-slerp-l2-13b": {
-      "in": 0.44999999999999996,
-      "cached": 0.22499999999999998,
-      "cache_write": 0.44999999999999996,
+      "in": 0.35,
+      "cached": 0.175,
+      "cache_write": 0.35,
       "out": 0.65
     },
     "union-alpha": {
@@ -33555,6 +36531,24 @@
       "cached": 0.0,
       "cache_write": 0.0,
       "out": 0.0
+    },
+    "unslopnemo-12b": {
+      "in": 0.39999999999999997,
+      "cached": 0.19999999999999998,
+      "cache_write": 0.39999999999999997,
+      "out": 0.39999999999999997
+    },
+    "upstage/solar-pro-3": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
+    "upstage/solar-pro4": {
+      "in": 0.09,
+      "cached": 0.018,
+      "cache_write": 0.09,
+      "out": 0.36
     },
     "us-east-1/anthropic.claude-instant-v1": {
       "in": 0.7999999999999999,
@@ -36378,13 +39372,13 @@
     },
     "voxtral-small-2507": {
       "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
+      "cached": 0.01,
       "cache_write": 0.09999999999999999,
       "out": 0.39999999999999997
     },
     "voxtral-small-latest": {
       "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
+      "cached": 0.01,
       "cache_write": 0.09999999999999999,
       "out": 0.39999999999999997
     },
@@ -36875,16 +39869,16 @@
       "out": 3.5
     },
     "wandb/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": {
-      "in": 0.75,
-      "cached": 0.15,
-      "cache_write": 0.75,
-      "out": 2.75
+      "in": 0.5,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.5,
+      "out": 2.1500000000000004
     },
     "wandb/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B": {
-      "in": 0.09999999999999999,
-      "cached": 0.049999999999999996,
-      "cache_write": 0.09999999999999999,
-      "out": 0.25
+      "in": 0.07,
+      "cached": 0.04,
+      "cache_write": 0.07,
+      "out": 0.19999999999999998
     },
     "wandb/openai/gpt-oss-120b": {
       "in": 0.03,
@@ -36909,6 +39903,12 @@
       "cached": 0.14,
       "cache_write": 0.76,
       "out": 2.42
+    },
+    "wandb/zai-org/GLM-5.3-Flash": {
+      "in": 0.15,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.15,
+      "out": 0.5
     },
     "watsonx/bigscience/mt0-xxl": {
       "in": 1.9080000000000001,
@@ -37126,6 +40126,12 @@
       "cache_write": 0.6,
       "out": 6.0
     },
+    "writer/palmyra-x5": {
+      "in": 0.6,
+      "cached": 0.3,
+      "cache_write": 0.6,
+      "out": 6.0
+    },
     "x-ai/grok-4": {
       "in": 3.0,
       "cached": 1.5,
@@ -37149,6 +40155,12 @@
       "cached": 0.19999999999999998,
       "cache_write": 1.25,
       "out": 2.5
+    },
+    "x-ai/grok-4.3:batch": {
+      "in": 1.0,
+      "cached": 0.16,
+      "cache_write": 1.0,
+      "out": 2.0
     },
     "x-ai/grok-4.5": {
       "in": 2.0,
@@ -37643,14 +40655,14 @@
       "out": 1.75
     },
     "z-ai/glm-4.7-flash": {
-      "in": 0.06,
+      "in": 0.060500000000000005,
       "cached": 0.01,
       "cache_write": 0.0,
       "out": 0.39999999999999997
     },
     "z-ai/glm-5": {
       "in": 0.6,
-      "cached": 0.3,
+      "cached": 0.12,
       "cache_write": 0.6,
       "out": 1.92
     },
@@ -37667,10 +40679,16 @@
       "out": 3.036
     },
     "z-ai/glm-5.2": {
-      "in": 1.4,
-      "cached": 0.14,
-      "cache_write": 1.4,
-      "out": 4.4
+      "in": 0.4875,
+      "cached": 0.091,
+      "cache_write": 0.4875,
+      "out": 1.56
+    },
+    "z-ai/glm-5.2:batch": {
+      "in": 0.7,
+      "cached": 0.07,
+      "cache_write": 0.7,
+      "out": 2.2
     },
     "z-ai/glm-5.2:free": {
       "in": 0.0,
@@ -37680,7 +40698,7 @@
     },
     "z-ai/glm-5.3": {
       "in": 1.4,
-      "cached": 0.14,
+      "cached": 0.26,
       "cache_write": 1.4,
       "out": 4.4
     },
@@ -37689,6 +40707,18 @@
       "cached": 0.018,
       "cache_write": 0.09,
       "out": 0.3
+    },
+    "z-ai/glm-5.3-flash:batch": {
+      "in": 0.075,
+      "cached": 0.015,
+      "cache_write": 0.075,
+      "out": 0.25
+    },
+    "z-ai/glm-5.3:batch": {
+      "in": 0.7,
+      "cached": 0.13,
+      "cache_write": 0.7,
+      "out": 2.2
     },
     "z-ai/glm-5v-turbo": {
       "in": 1.2,
@@ -38019,6 +41049,114 @@
       "cached": 0.075,
       "cache_write": 0.15,
       "out": 0.15
+    },
+    "~anthropic/claude-fable-latest": {
+      "in": 10.0,
+      "cached": 0.25,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "~anthropic/claude-haiku-latest": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
+    "~anthropic/claude-opus-latest": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "~anthropic/claude-sonnet-latest": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "~deepseek/deepseek-flash-latest": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
+    "~deepseek/deepseek-pro-latest": {
+      "in": 0.66,
+      "cached": 0.022,
+      "cache_write": 0.66,
+      "out": 1.9800000000000002
+    },
+    "~deepseek/deepseek-v4-flash-latest": {
+      "in": 0.055799999999999995,
+      "cached": 0.008799999999999999,
+      "cache_write": 0.055799999999999995,
+      "out": 0.1767
+    },
+    "~google/gemini-flash-latest": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.0416666666666667,
+      "out": 3.75
+    },
+    "~google/gemini-pro-latest": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 0.375,
+      "out": 12.0
+    },
+    "~moonshotai/kimi-latest": {
+      "in": 2.0999999999999996,
+      "cached": 0.22999999999999998,
+      "cache_write": 2.0999999999999996,
+      "out": 10.950000000000001
+    },
+    "~openai/gpt-astra-latest": {
+      "in": 10.0,
+      "cached": 1.0,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "~openai/gpt-luna-latest": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.25,
+      "out": 1.2
+    },
+    "~openai/gpt-mini-latest": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.75,
+      "out": 4.5
+    },
+    "~openai/gpt-sol-latest": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "~openai/gpt-terra-latest": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 12.0
+    },
+    "~x-ai/grok-latest": {
+      "in": 2.0,
+      "cached": 0.5,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "~z-ai/glm-flash-latest": {
+      "in": 0.075,
+      "cached": 0.015,
+      "cache_write": 0.075,
+      "out": 0.25
+    },
+    "~z-ai/glm-latest": {
+      "in": 0.8775,
+      "cached": 0.1755,
+      "cache_write": 0.8775,
+      "out": 2.9699999999999998
     }
   },
   "reroutes": {}
