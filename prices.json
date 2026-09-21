@@ -1,6 +1,6 @@
 {
-  "version": "2026-09-20",
-  "updated": "2026-09-20T11:17:13Z",
+  "version": "2026-09-21",
+  "updated": "2026-09-21T12:42:08Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -12899,10 +12899,10 @@
       "out": 1.2
     },
     "deepseek-flash-latest": {
-      "in": 0.13,
-      "cached": 0.0026000000000000003,
-      "cache_write": 0.13,
-      "out": 0.52
+      "in": 0.3,
+      "cached": 0.006,
+      "cache_write": 0.3,
+      "out": 1.2
     },
     "deepseek-llama3.3-70b": {
       "in": 0.19999999999999998,
@@ -12929,10 +12929,10 @@
       "out": 1.2
     },
     "deepseek-pro-latest": {
-      "in": 0.57684,
-      "cached": 0.019228,
-      "cache_write": 0.57684,
-      "out": 1.7305199999999998
+      "in": 1.32,
+      "cached": 0.044,
+      "cache_write": 1.32,
+      "out": 3.9600000000000004
     },
     "deepseek-prover-v2": {
       "in": 1.2,
@@ -13178,7 +13178,7 @@
       "in": 0.04,
       "cached": 0.016,
       "cache_write": 0.04,
-      "out": 0.08
+      "out": 0.16
     },
     "deepseek-v4-flash-thinking": {
       "in": 0.25,
@@ -18071,16 +18071,16 @@
       "out": 4.0
     },
     "glm-flash-latest": {
-      "in": 0.075,
-      "cached": 0.015,
-      "cache_write": 0.075,
-      "out": 0.25
+      "in": 0.09,
+      "cached": 0.018,
+      "cache_write": 0.09,
+      "out": 0.3
     },
     "glm-latest": {
-      "in": 0.8442,
-      "cached": 0.15678,
-      "cache_write": 0.8442,
-      "out": 2.6532
+      "in": 0.9099999999999999,
+      "cached": 0.16899999999999998,
+      "cache_write": 0.9099999999999999,
+      "out": 2.8600000000000003
     },
     "global-standard/gpt-4o-2024-08-06": {
       "in": 2.5,
@@ -22955,10 +22955,10 @@
       "out": 0.04
     },
     "meta-llama/llama-3.1-70b-instruct": {
-      "in": 0.39999999999999997,
-      "cached": 0.19999999999999998,
-      "cache_write": 0.39999999999999997,
-      "out": 0.39999999999999997
+      "in": 0.72,
+      "cached": 0.36,
+      "cache_write": 0.72,
+      "out": 0.72
     },
     "meta-llama/llama-3.1-8b-instruct": {
       "in": 0.02,
@@ -22985,10 +22985,10 @@
       "out": 0.39999999999999997
     },
     "meta-llama/llama-4-maverick": {
-      "in": 0.1875,
-      "cached": 0.09375,
-      "cache_write": 0.1875,
-      "out": 0.6525
+      "in": 0.19999999999999998,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.19999999999999998,
+      "out": 0.7999999999999999
     },
     "meta-llama/llama-4-maverick-17b": {
       "in": 0.371,
@@ -23411,10 +23411,10 @@
       "out": 0.0
     },
     "meta/muse-glimmer-30b": {
-      "in": 0.35,
+      "in": 0.3,
       "cached": 0.04,
-      "cache_write": 0.35,
-      "out": 1.5
+      "cache_write": 0.3,
+      "out": 1.2
     },
     "meta/muse-glimmer-30b:batch": {
       "in": 0.175,
@@ -29273,16 +29273,16 @@
       "out": 0.41
     },
     "openrouter/deepseek/deepseek-v4-flash": {
-      "in": 0.036680000000000004,
-      "cached": 0.0073360000000000005,
-      "cache_write": 0.036680000000000004,
-      "out": 0.07336000000000001
+      "in": 0.088606,
+      "cached": 0.017721200000000003,
+      "cache_write": 0.088606,
+      "out": 0.177212
     },
     "openrouter/deepseek/deepseek-v4-flash-0731": {
       "in": 0.04,
       "cached": 0.016,
       "cache_write": 0.04,
-      "out": 0.08
+      "out": 0.16
     },
     "openrouter/deepseek/deepseek-v4-flash-0731:batch": {
       "in": 0.11,
@@ -29297,10 +29297,10 @@
       "out": 0.0
     },
     "openrouter/deepseek/deepseek-v4-flash-vision-exp": {
-      "in": 0.21559999999999999,
-      "cached": 0.00686,
-      "cache_write": 0.21559999999999999,
-      "out": 0.6468
+      "in": 0.22,
+      "cached": 0.007,
+      "cache_write": 0.22,
+      "out": 0.66
     },
     "openrouter/deepseek/deepseek-v4-flash-vision-exp:batch": {
       "in": 0.11,
@@ -29309,10 +29309,10 @@
       "out": 0.33
     },
     "openrouter/deepseek/deepseek-v4-pro": {
-      "in": 0.422298,
-      "cached": 0.0351915,
-      "cache_write": 0.422298,
-      "out": 0.844596
+      "in": 0.9552599999999999,
+      "cached": 0.07960500000000001,
+      "cache_write": 0.9552599999999999,
+      "out": 1.9105199999999998
     },
     "openrouter/deepseek/deepseek-v4-pro-0813": {
       "in": 1.32,
@@ -29609,10 +29609,10 @@
       "out": 0.112
     },
     "openrouter/ibm-granite/granite-4.2-8b": {
-      "in": 0.06,
-      "cached": 0.015,
-      "cache_write": 0.06,
-      "out": 0.25
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.15
     },
     "openrouter/inception/mercury-2": {
       "in": 0.25,
@@ -29711,10 +29711,10 @@
       "out": 0.7899999999999999
     },
     "openrouter/meta-llama/llama-3.1-70b-instruct": {
-      "in": 0.39999999999999997,
-      "cached": 0.19999999999999998,
-      "cache_write": 0.39999999999999997,
-      "out": 0.39999999999999997
+      "in": 0.72,
+      "cached": 0.36,
+      "cache_write": 0.72,
+      "out": 0.72
     },
     "openrouter/meta-llama/llama-3.1-8b-instruct": {
       "in": 0.049999999999999996,
@@ -29741,10 +29741,10 @@
       "out": 0.32
     },
     "openrouter/meta-llama/llama-4-maverick": {
-      "in": 0.1875,
-      "cached": 0.09375,
-      "cache_write": 0.1875,
-      "out": 0.6525
+      "in": 0.19999999999999998,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.19999999999999998,
+      "out": 0.7999999999999999
     },
     "openrouter/meta-llama/llama-4-scout": {
       "in": 0.09999999999999999,
@@ -29759,10 +29759,10 @@
       "out": 0.18
     },
     "openrouter/meta/muse-glimmer-30b": {
-      "in": 0.35,
+      "in": 0.3,
       "cached": 0.04,
-      "cache_write": 0.35,
-      "out": 1.5
+      "cache_write": 0.3,
+      "out": 1.2
     },
     "openrouter/meta/muse-glimmer-30b:batch": {
       "in": 0.175,
@@ -31085,10 +31085,10 @@
       "out": 2.0
     },
     "openrouter/qwen/qwen3.6-35b-a3b": {
-      "in": 0.09999999999999999,
+      "in": 0.15,
       "cached": 0.049999999999999996,
-      "cache_write": 0.09999999999999999,
-      "out": 0.8999999999999999
+      "cache_write": 0.15,
+      "out": 1.0
     },
     "openrouter/qwen/qwen3.6-flash": {
       "in": 0.1875,
@@ -31139,10 +31139,10 @@
       "out": 6.0
     },
     "openrouter/qwen/qwen3.8-27b": {
-      "in": 0.42,
-      "cached": 0.08499999999999999,
-      "cache_write": 0.42,
-      "out": 3.0
+      "in": 0.19999999999999998,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.19999999999999998,
+      "out": 2.5
     },
     "openrouter/qwen/qwen3.8-27b:free": {
       "in": 0.0,
@@ -31529,10 +31529,10 @@
       "out": 0.0
     },
     "openrouter/z-ai/glm-5.3": {
-      "in": 0.896,
-      "cached": 0.16640000000000002,
-      "cache_write": 0.896,
-      "out": 2.816
+      "in": 0.9099999999999999,
+      "cached": 0.16899999999999998,
+      "cache_write": 0.9099999999999999,
+      "out": 2.8600000000000003
     },
     "openrouter/z-ai/glm-5.3-flash": {
       "in": 0.09,
@@ -31589,22 +31589,22 @@
       "out": 10.0
     },
     "openrouter/~deepseek/deepseek-flash-latest": {
-      "in": 0.13,
-      "cached": 0.0026000000000000003,
-      "cache_write": 0.13,
-      "out": 0.52
+      "in": 0.3,
+      "cached": 0.006,
+      "cache_write": 0.3,
+      "out": 1.2
     },
     "openrouter/~deepseek/deepseek-pro-latest": {
-      "in": 0.57684,
-      "cached": 0.019228,
-      "cache_write": 0.57684,
-      "out": 1.7305199999999998
+      "in": 1.32,
+      "cached": 0.044,
+      "cache_write": 1.32,
+      "out": 3.9600000000000004
     },
     "openrouter/~deepseek/deepseek-v4-flash-latest": {
       "in": 0.04,
       "cached": 0.016,
       "cache_write": 0.04,
-      "out": 0.08
+      "out": 0.16
     },
     "openrouter/~google/gemini-flash-latest": {
       "in": 0.75,
@@ -31661,16 +31661,16 @@
       "out": 6.0
     },
     "openrouter/~z-ai/glm-flash-latest": {
-      "in": 0.075,
-      "cached": 0.015,
-      "cache_write": 0.075,
-      "out": 0.25
+      "in": 0.09,
+      "cached": 0.018,
+      "cache_write": 0.09,
+      "out": 0.3
     },
     "openrouter/~z-ai/glm-latest": {
-      "in": 0.8442,
-      "cached": 0.15678,
-      "cache_write": 0.8442,
-      "out": 2.6532
+      "in": 0.9099999999999999,
+      "cached": 0.16899999999999998,
+      "cache_write": 0.9099999999999999,
+      "out": 2.8600000000000003
     },
     "openthinker-7b": {
       "in": 0.08,
@@ -40751,10 +40751,10 @@
       "out": 0.0
     },
     "z-ai/glm-5.3": {
-      "in": 0.896,
-      "cached": 0.16640000000000002,
-      "cache_write": 0.896,
-      "out": 2.816
+      "in": 0.9099999999999999,
+      "cached": 0.16899999999999998,
+      "cache_write": 0.9099999999999999,
+      "out": 2.8600000000000003
     },
     "z-ai/glm-5.3-flash": {
       "in": 0.09,
@@ -41135,22 +41135,22 @@
       "out": 10.0
     },
     "~deepseek/deepseek-flash-latest": {
-      "in": 0.13,
-      "cached": 0.0026000000000000003,
-      "cache_write": 0.13,
-      "out": 0.52
+      "in": 0.3,
+      "cached": 0.006,
+      "cache_write": 0.3,
+      "out": 1.2
     },
     "~deepseek/deepseek-pro-latest": {
-      "in": 0.57684,
-      "cached": 0.019228,
-      "cache_write": 0.57684,
-      "out": 1.7305199999999998
+      "in": 1.32,
+      "cached": 0.044,
+      "cache_write": 1.32,
+      "out": 3.9600000000000004
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "in": 0.04,
       "cached": 0.016,
       "cache_write": 0.04,
-      "out": 0.08
+      "out": 0.16
     },
     "~google/gemini-flash-latest": {
       "in": 0.75,
@@ -41207,16 +41207,16 @@
       "out": 6.0
     },
     "~z-ai/glm-flash-latest": {
-      "in": 0.075,
-      "cached": 0.015,
-      "cache_write": 0.075,
-      "out": 0.25
+      "in": 0.09,
+      "cached": 0.018,
+      "cache_write": 0.09,
+      "out": 0.3
     },
     "~z-ai/glm-latest": {
-      "in": 0.8442,
-      "cached": 0.15678,
-      "cache_write": 0.8442,
-      "out": 2.6532
+      "in": 0.9099999999999999,
+      "cached": 0.16899999999999998,
+      "cache_write": 0.9099999999999999,
+      "out": 2.8600000000000003
     }
   },
   "reroutes": {}
